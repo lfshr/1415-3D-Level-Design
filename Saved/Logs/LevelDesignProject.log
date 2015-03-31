@@ -1,4 +1,4 @@
-﻿Log file open, 03/30/15 14:07:34
+﻿Log file open, 03/31/15 11:31:04
 LogInit:Display: Running engine for game: LevelDesignProject
 LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -6,362 +6,423 @@ LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
 LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.03.30-13.07.34:444][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.03.30-13.07.34:496][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.03.30-13.07.34:509][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.03.30-13.07.34:519][  0]LogInit: Object subsystem initialized
-[2015.03.30-13.07.34:520][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.03.30-13.07.34:520][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.03.30-13.07.34:521][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.03.30-13.07.34:521][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.03.30-13.07.34:521][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2015.03.30-13.07.34:521][  0]LogInit: Selected Device Profile: [Windows]
-[2015.03.30-13.07.34:521][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.03.30-13.07.34:623][  0]LogInit: Computer: PC-P-E113B-06
-[2015.03.30-13.07.34:623][  0]LogInit: User: b00205833
-[2015.03.30-13.07.34:623][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.03.30-13.07.34:623][  0]LogInit: High frequency timer resolution =3.312666 MHz
-[2015.03.30-13.07.34:623][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx) Virtual=8192.0GB
-[2015.03.30-13.07.34:623][  0]LogMemory: Platform Memory Stats for Windows
-[2015.03.30-13.07.34:623][  0]LogMemory: Process Physical Memory: 48.17 MB used, 48.17 MB peak
-[2015.03.30-13.07.34:623][  0]LogMemory: Process Virtual Memory: 26.53 MB used, 26.53 MB peak
-[2015.03.30-13.07.34:623][  0]LogMemory: Physical Memory: 5512.88 MB used, 16136.93 MB total
-[2015.03.30-13.07.34:623][  0]LogMemory: Virtual Memory: 278.33 MB used, 8388608.00 MB total
-[2015.03.30-13.07.34:648][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K4000 (Feature Level 11_0)
-[2015.03.30-13.07.34:648][  0]LogD3D11RHI: Adapter has 3008MB of dedicated video memory, 0MB of dedicated system memory, and 7812MB of shared system memory, 2 output[s]
-[2015.03.30-13.07.34:648][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.03.30-13.07.34:652][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.03.30-13.07.34:660][  0]LogD3D11RHI: Async texture creation enabled
-[2015.03.30-13.07.34:709][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
-[2015.03.30-13.07.34:765][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.03.31-10.31.04:392][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.31-10.31.04:441][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.31-10.31.04:451][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.31-10.31.04:460][  0]LogInit: Object subsystem initialized
+[2015.03.31-10.31.04:461][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.31-10.31.04:461][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-10.31.04:461][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.31-10.31.04:462][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-10.31.04:462][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.03.31-10.31.04:462][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.31-10.31.04:462][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.31-10.31.04:470][  0]LogInit: Computer: PC-P-E113B-06
+[2015.03.31-10.31.04:470][  0]LogInit: User: b00205833
+[2015.03.31-10.31.04:470][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.31-10.31.04:470][  0]LogInit: High frequency timer resolution =3.312666 MHz
+[2015.03.31-10.31.04:471][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx) Virtual=8192.0GB
+[2015.03.31-10.31.04:471][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.31-10.31.04:471][  0]LogMemory: Process Physical Memory: 48.36 MB used, 48.36 MB peak
+[2015.03.31-10.31.04:471][  0]LogMemory: Process Virtual Memory: 28.44 MB used, 28.44 MB peak
+[2015.03.31-10.31.04:471][  0]LogMemory: Physical Memory: 4613.87 MB used, 16136.93 MB total
+[2015.03.31-10.31.04:471][  0]LogMemory: Virtual Memory: 280.27 MB used, 8388608.00 MB total
+[2015.03.31-10.31.04:494][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K4000 (Feature Level 11_0)
+[2015.03.31-10.31.04:494][  0]LogD3D11RHI: Adapter has 3008MB of dedicated video memory, 0MB of dedicated system memory, and 7812MB of shared system memory, 2 output[s]
+[2015.03.31-10.31.04:494][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.31-10.31.04:498][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.31-10.31.04:506][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.31-10.31.04:554][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.31-10.31.04:607][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.03.30-13.07.34:765][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.03.31-10.31.04:607][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.03.30-13.07.34:858][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.03.30-13.07.39:220][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.30-13.07.41:194][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.30-13.07.41:252][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.03.30-13.07.41:292][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/b00205833/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.03.30-13.07.41:292][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/b00205833/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.03.30-13.07.41:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.03.30-13.07.41:293][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.03.30-13.07.41:404][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.03.30-13.07.41:416][  0]LogDerivedDataCache: Using Local data cache path C:/Users/b00205833/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.03.30-13.07.43:231][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.03.30-13.07.43:231][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.03.30-13.07.44:110][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.03.30-13.07.44:184][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.03.30-13.07.46:199][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.03.30-13.07.47:634][  0]SourceControl: Info Source control is disabled
-[2015.03.30-13.07.47:634][  0]SourceControl: Info Source control is disabled
-[2015.03.30-13.07.47:634][  0]SourceControl: Info Source control is disabled
-[2015.03.30-13.07.47:634][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.03.30-13.07.47:634][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.03.30-13.07.47:641][  0]SourceControl: Info Source control is disabled
-[2015.03.30-13.07.47:797][  0]LogObj: 24231 objects as part of root set at end of initial load.
-[2015.03.30-13.07.47:797][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
-[2015.03.30-13.07.48:528][  0]LogEngine: Initializing Engine...
-[2015.03.30-13.07.51:711][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.03.30-13.07.51:720][  0]LogInit: FAudioDevice initialized.
-[2015.03.30-13.07.51:758][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.03.30-13.07.51:782][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/b00205833/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.03.30-13.07.51:787][  0]LogInit: Texture streaming: Enabled
-[2015.03.30-13.07.51:869][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.03.30-13.07.51:869][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
-[2015.03.30-13.07.51:869][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
-[2015.03.30-13.07.51:869][  0]LogAnalytics: SetUserId 5e82a6ff4a9fd0cbba5a9fbad1f51096|8b63e09de55b46b8b41808be81ff4bd4|91c3eff8-617b-40bb-aeb6-a9057b0b07ad
-[2015.03.30-13.07.51:886][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.03.30-13.07.51:909][  0]LogInit: Transaction tracking system initialized
-[2015.03.30-13.07.52:086][  0]BlueprintLog: New page: Editor Load
-[2015.03.30-13.07.52:122][  0]LogAssetRegistry: FAssetRegistry took 0.0092 seconds to start up
-[2015.03.30-13.07.52:122][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.03.30-13.07.54:100][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.30-13.07.54:974][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.30-13.07.56:307][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.03.30-13.07.56:309][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.03.30-13.07.56:316][  0]LogConsoleResponse:Display: 
-[2015.03.30-13.07.56:503][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.03.30-13.07.56:875][  0]SourceControl: Info Source control is disabled
-[2015.03.30-13.07.56:875][  0]Cmd: MAP LOAD FILE="E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/StarterContent/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.03.30-13.07.56:878][  0]LightingResults: New page: Lighting Build
-[2015.03.30-13.07.56:890][  0]MapCheck: New page: Map Check
-[2015.03.30-13.07.56:890][  0]LightingResults: New page: Lighting Build
-[2015.03.30-13.07.56:898][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001345CD60
-[2015.03.30-13.07.58:989][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.03.30-13.07.59:002][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.03.30-13.07.59:005][  0]Cmd: MAP CHECKDEP
-[2015.03.30-13.07.59:005][  0]MapCheck: New page: Minimal_Default - 30 Mar 2015 15:07:59
-[2015.03.30-13.07.59:843][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 838.558ms to complete.
-[2015.03.30-13.07.59:844][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.969
-[2015.03.30-13.07.59:993][  0]LogCollectionManager: Loaded 0 collections in 0.003104 seconds
-[2015.03.30-13.08.00:979][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 1696 classes and 261 folders.
-[2015.03.30-13.08.01:022][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0028 seconds. Added 1 classes and 2 folders.
-[2015.03.30-13.08.01:069][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.03.30-13.08.01:071][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.03.30-13.08.01:077][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.03.30-13.08.01:105][  0]LogLoad: Full Startup: 31.54 seconds (BP compile: 0.07 seconds)
-[2015.03.30-13.08.01:843][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
-[2015.03.30-13.08.01:945][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2015.03.30-13.08.03:106][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
-[2015.03.30-13.08.04:317][  3]LogAssetRegistry: Asset discovery search completed in 12.2040 seconds
-[2015.03.30-13.08.32:515][846]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
-[2015.03.30-13.08.55:246][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maps/krismodles" FILE="E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/maps/krismodles.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.03.30-13.08.55:604][ 54]LogSavePackage: Save=66.301582ms
-[2015.03.30-13.08.55:604][ 54]LogSavePackage: Moving 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/krismodles89476ABC4B1C1B3B633680A47FDC7192.tmp' to 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/maps/krismodles.umap'
-[2015.03.30-13.08.55:684][ 54]LogFileHelpers: Saving map 'krismodles' took 0.614
-[2015.03.30-13.08.55:719][ 54]Cmd: MAP LOAD FILE="E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/maps/krismodles.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.03.30-13.08.55:720][ 54]LightingResults: New page: Lighting Build
-[2015.03.30-13.08.55:742][ 54]LoadErrors: New page: Loading map: krismodles.umap
-[2015.03.30-13.08.55:745][ 54]MapCheck: New page: Map Check
-[2015.03.30-13.08.55:745][ 54]LightingResults: New page: Lighting Build
-[2015.03.30-13.08.55:753][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D0271A0
-[2015.03.30-13.08.55:764][ 54]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.03.30-13.08.55:768][ 54]LogAIModule: Creating AISystem for world krismodles
-[2015.03.30-13.08.55:880][ 54]Cmd: MAP CHECKDEP
-[2015.03.30-13.08.55:880][ 54]MapCheck: New page: krismodles - 30 Mar 2015 15:08:55
-[2015.03.30-13.08.56:051][ 54]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 170.786ms to complete.
-[2015.03.30-13.08.56:051][ 54]LogFileHelpers: Loading map 'krismodles' took 0.334
-[2015.03.30-13.09.01:145][657]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000160789C0
-[2015.03.30-13.09.01:145][657]LogHttp:Warning: 00000000160789C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-13.09.01:145][657]LogHttp:Warning: 00000000160789C0 Response Header Content-Type: text/html
-[2015.03.30-13.09.01:145][657]LogHttp:Warning: 00000000160789C0 Response Header Cache-Control: no-cache
-[2015.03.30-13.09.01:145][657]LogHttp:Warning: 00000000160789C0 Response Header Content-Length: 2833
-[2015.03.30-13.09.01:145][657]LogHttp:Warning: 00000000160789C0 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-13.09.12:162][394]LightingResults: New page: Lighting Build
-[2015.03.30-13.09.12:164][394]MapCheck: New page: Map Check
-[2015.03.30-13.09.12:164][394]LightingResults: New page: Lighting Build
-[2015.03.30-13.09.12:180][394]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020EA6AC0
-[2015.03.30-13.09.12:182][394]LogAIModule: Creating AISystem for world NewWorld
-[2015.03.30-13.09.12:672][394]LoadErrors: New page: New Map
-[2015.03.30-13.09.19:952][564]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.03.30-13.09.20:017][564]LightingResults: New page: Lighting Build
-[2015.03.30-13.09.20:043][564]LoadErrors: New page: Loading map: Template_Default.umap
-[2015.03.30-13.09.20:044][564]MapCheck: New page: Map Check
-[2015.03.30-13.09.20:044][564]LightingResults: New page: Lighting Build
-[2015.03.30-13.09.20:052][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004076DE0
-[2015.03.30-13.09.20:089][564]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.03.30-13.09.20:096][564]LogAIModule: Creating AISystem for world Untitled_2
-[2015.03.30-13.09.20:113][564]Cmd: MAP CHECKDEP
-[2015.03.30-13.09.20:113][564]MapCheck: New page: Untitled_2 - 30 Mar 2015 15:09:20
-[2015.03.30-13.09.21:239][564]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,124.723ms to complete.
-[2015.03.30-13.09.21:239][564]LogFileHelpers: Loading map 'Template_Default' took 1.288
-[2015.03.30-13.09.23:936][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.03.30-13.09.27:179][ 26]Cmd: DELETE
-[2015.03.30-13.09.27:179][ 26]Cmd: ACTOR DELETE
-[2015.03.30-13.09.27:182][ 26]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.03.30-13.09.27:194][ 26]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2015.03.30-13.09.29:695][245]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.03.30-13.09.45:859][729]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/props'
-[2015.03.30-13.09.48:840][949]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
-[2015.03.30-13.09.50:738][110]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes'
-[2015.03.30-13.10.03:016][216]Cmd: POLY SELECT ADJACENT WALLS
-[2015.03.30-13.10.11:500][161]LogActorFactory: Actor Factory created SM_Cog_Underground_Console_Panel_NoButton
-[2015.03.30-13.10.12:605][270]LogActorFactory: Actor Factory created SM_Cog_Underground_Console_Panel_NoButton
-[2015.03.30-13.10.30:974][378]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-13.10.30:974][378]PIE: New page: SIE session: Untitled_2 (30 Mar 2015 15:10:30)
-[2015.03.30-13.10.30:977][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003204s)
-[2015.03.30-13.10.30:978][378]LogPlayLevel: PIE: World Init took: (0.000518s)
-[2015.03.30-13.10.30:978][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled_2 to /Temp/UEDPIE_0_Untitled_2.Untitled_2 (0.003875s)
-[2015.03.30-13.10.31:038][378]LogWorld: Game class is 'GameMode'
-[2015.03.30-13.10.31:042][378]LogAIModule: Creating AISystem for world Untitled_2
-[2015.03.30-13.10.31:051][378]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled_2 up for play (max tick rate 0) at 2015.03.30-14.10.31
-[2015.03.30-13.10.31:053][378]LogWorld: Bringing up level for play took: 0.010235
-[2015.03.30-13.10.31:055][378]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-13.10.31:057][378]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 0.161
-[2015.03.30-13.10.38:064][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CA9D260
-[2015.03.30-13.11.31:143][981]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000021018D40
-[2015.03.30-13.11.31:475][982]LogHttp:Warning: 0000000021018D40 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-13.11.31:475][982]LogHttp:Warning: 0000000021018D40 Response Header Content-Type: text/html
-[2015.03.30-13.11.31:475][982]LogHttp:Warning: 0000000021018D40 Response Header Cache-Control: no-cache
-[2015.03.30-13.11.31:475][982]LogHttp:Warning: 0000000021018D40 Response Header Content-Length: 2833
-[2015.03.30-13.11.31:475][982]LogHttp:Warning: 0000000021018D40 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-13.13.13:552][573]LogTexture:Display: Building textures: T_Security_Camera_Base_M (AutoDXT)
-[2015.03.30-13.13.13:847][573]LogMaterial: Missing cached shader map for material M_Security_Camera_Master, compiling. 
-[2015.03.30-13.13.13:879][573]LogStaticMesh: Building static mesh SM_Security_Flashing_Alarm...
-[2015.03.30-13.13.14:028][573]LogStaticMesh: Built static mesh [148.277557ms] /Game/Assets/Meshes/SM_Security_Flashing_Alarm.SM_Security_Flashing_Alarm
-[2015.03.30-13.13.14:478][573]LogActorFactory: Actor Factory created SM_Security_Flashing_Alarm
-[2015.03.30-13.13.14:730][574]LogActorFactory: Actor Factory created SM_Security_Flashing_Alarm
-[2015.03.30-13.14.01:446][405]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000021018640
-[2015.03.30-13.14.01:782][406]LogHttp:Warning: 0000000021018640 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-13.14.01:782][406]LogHttp:Warning: 0000000021018640 Response Header Content-Type: text/html
-[2015.03.30-13.14.01:782][406]LogHttp:Warning: 0000000021018640 Response Header Cache-Control: no-cache
-[2015.03.30-13.14.01:782][406]LogHttp:Warning: 0000000021018640 Response Header Content-Length: 2833
-[2015.03.30-13.14.01:782][406]LogHttp:Warning: 0000000021018640 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-13.14.35:981][628]LogStaticMesh: Building static mesh SM_Security_Camera_Lens...
-[2015.03.30-13.14.36:030][628]LogStaticMesh: Built static mesh [49.277531ms] /Game/Assets/Meshes/SM_Security_Camera_Lens.SM_Security_Camera_Lens
-[2015.03.30-13.14.36:313][640]LogActorFactory: Actor Factory created SM_Security_Camera_Lens
-[2015.03.30-13.14.41:136][724]LogActorFactory: Actor Factory created SM_Security_Camera_Lens
-[2015.03.30-13.14.44:405][ 10]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.15.02:219][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cog_Underground_Console_Panel_NoButton)
-[2015.03.30-13.15.03:374][761]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Cog_Underground_Console_Panel_NoButton)
-[2015.03.30-13.15.04:909][931]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Cog_Underground_Console_Panel_NoButton)
-[2015.03.30-13.15.06:792][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cog_Underground_Console_Panel_NoButton)
-[2015.03.30-13.15.16:957][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Security_Flashing_Alarm)
-[2015.03.30-13.15.50:191][733]LogStaticMesh: Building static mesh SM_Security_Camera_Base...
-[2015.03.30-13.15.50:234][733]LogStaticMesh: Built static mesh [43.540760ms] /Game/Assets/Meshes/SM_Security_Camera_Base.SM_Security_Camera_Base
-[2015.03.30-13.15.50:385][734]LogActorFactory: Actor Factory created SM_Security_Camera_Base
-[2015.03.30-13.15.52:225][888]LogActorFactory: Actor Factory created SM_Security_Camera_Base
-[2015.03.30-13.16.06:208][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Security_Camera_Lens)
-[2015.03.30-13.17.07:256][170]LogTexture:Display: Building textures: T_Underground_Clamp04_M (AutoDXT)
-[2015.03.30-13.17.08:549][170]LogTexture:Display: Building textures: T_Underground_Clamp04_N (BC5)
-[2015.03.30-13.17.08:946][170]LogMaterial: Missing cached shader map for material M_COG_Underground_Pipe_Clamps_04, compiling. 
-[2015.03.30-13.17.08:955][170]LogStaticMesh: Building static mesh SM_Underground_Pipe_Clamp04...
-[2015.03.30-13.17.09:184][170]LogStaticMesh: Built static mesh [229.011322ms] /Game/Assets/Meshes/SM_Underground_Pipe_Clamp04.SM_Underground_Pipe_Clamp04
-[2015.03.30-13.17.09:537][170]LogActorFactory: Actor Factory created SM_Underground_Pipe_Clamp04
-[2015.03.30-13.19.01:767][885]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000017386080
-[2015.03.30-13.19.02:102][886]LogHttp:Warning: 0000000017386080 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-13.19.02:102][886]LogHttp:Warning: 0000000017386080 Response Header Content-Type: text/html
-[2015.03.30-13.19.02:102][886]LogHttp:Warning: 0000000017386080 Response Header Cache-Control: no-cache
-[2015.03.30-13.19.02:102][886]LogHttp:Warning: 0000000017386080 Response Header Content-Length: 2833
-[2015.03.30-13.19.02:102][886]LogHttp:Warning: 0000000017386080 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-13.19.33:731][ 46]LogSavePackage: Save=5211.196289ms
-[2015.03.30-13.19.33:731][ 46]LogSavePackage: Moving 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/Untitled_2_Auto135297BFA4034AE45A0705986638FED8F.tmp' to 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/Autosaves/Temp/Untitled_2_Auto1.umap'
-[2015.03.30-13.19.33:809][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 6.928
-[2015.03.30-13.19.33:809][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.928
-[2015.03.30-13.24.01:540][851]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000000CA8FC80
-[2015.03.30-13.24.01:872][852]LogHttp:Warning: 000000000CA8FC80 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-13.24.01:872][852]LogHttp:Warning: 000000000CA8FC80 Response Header Content-Type: text/html
-[2015.03.30-13.24.01:872][852]LogHttp:Warning: 000000000CA8FC80 Response Header Cache-Control: no-cache
-[2015.03.30-13.24.01:872][852]LogHttp:Warning: 000000000CA8FC80 Response Header Content-Length: 2833
-[2015.03.30-13.24.01:882][852]LogHttp:Warning: 000000000CA8FC80 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-13.24.42:892][283]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
-[2015.03.30-13.25.22:507][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/KrisGubbins" FILE="E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/Maps/KrisGubbins.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.03.30-13.25.33:025][ 73]LogSavePackage: Save=9340.856445ms
-[2015.03.30-13.25.33:025][ 73]LogSavePackage: Moving 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/KrisGubbinsDED1076C451D836D2CA25E87AC82E552.tmp' to 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/Maps/KrisGubbins.umap'
-[2015.03.30-13.25.33:603][ 73]LogFileHelpers: Saving map 'KrisGubbins' took 14.902
-[2015.03.30-13.25.51:059][543]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000199D9280
-[2015.03.30-13.25.51:062][543]LogHttp:Warning: 00000000199D9280 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-13.25.51:062][543]LogHttp:Warning: 00000000199D9280 Response Header Content-Type: text/html
-[2015.03.30-13.25.51:062][543]LogHttp:Warning: 00000000199D9280 Response Header Cache-Control: no-cache
-[2015.03.30-13.25.51:062][543]LogHttp:Warning: 00000000199D9280 Response Header Content-Length: 2833
-[2015.03.30-13.25.51:062][543]LogHttp:Warning: 00000000199D9280 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-13.26.25:853][254]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.27.01:949][872]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Textures'
-[2015.03.30-13.27.02:922][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes'
-[2015.03.30-13.27.12:220][257]LogTexture:Display: Building textures: T_Underground_Clamps01_M (AutoDXT)
-[2015.03.30-13.27.13:502][257]LogMaterial: Missing cached shader map for material M_COG_Underground_Base_Pipe, compiling. 
-[2015.03.30-13.27.13:511][257]LogStaticMesh: Building static mesh SM_Cog_Underground_Pipe01_100...
-[2015.03.30-13.27.13:775][257]LogStaticMesh: Built static mesh [264.492401ms] /Game/Assets/Meshes/SM_Cog_Underground_Pipe01_100.SM_Cog_Underground_Pipe01_100
-[2015.03.30-13.27.14:163][257]LogActorFactory: Actor Factory created SM_Cog_Underground_Pipe01_100
-[2015.03.30-13.28.09:471][905]LogStaticMesh: Building static mesh SM_Cog_Underground_Pipe01_200...
-[2015.03.30-13.28.09:522][905]LogStaticMesh: Built static mesh [51.013596ms] /Game/Assets/Meshes/SM_Cog_Underground_Pipe01_200.SM_Cog_Underground_Pipe01_200
-[2015.03.30-13.28.10:313][924]LogActorFactory: Actor Factory created SM_Cog_Underground_Pipe01_200
-[2015.03.30-13.28.16:559][366]LogActorFactory: Actor Factory created SM_Cog_Underground_Pipe01_200
-[2015.03.30-13.29.01:777][243]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000000CB0B3C0
-[2015.03.30-13.29.02:106][244]LogHttp:Warning: 000000000CB0B3C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-13.29.02:106][244]LogHttp:Warning: 000000000CB0B3C0 Response Header Content-Type: text/html
-[2015.03.30-13.29.02:106][244]LogHttp:Warning: 000000000CB0B3C0 Response Header Cache-Control: no-cache
-[2015.03.30-13.29.02:106][244]LogHttp:Warning: 000000000CB0B3C0 Response Header Content-Length: 2833
-[2015.03.30-13.29.02:106][244]LogHttp:Warning: 000000000CB0B3C0 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-13.29.25:424][422]LogStaticMesh: Building static mesh SM_Cog_Underground_Pipe01_100_Bent_90...
-[2015.03.30-13.29.25:468][422]LogStaticMesh: Built static mesh [44.285480ms] /Game/Assets/Meshes/SM_Cog_Underground_Pipe01_100_Bent_90.SM_Cog_Underground_Pipe01_100_Bent_90
-[2015.03.30-13.29.25:619][430]LogActorFactory: Actor Factory created SM_Cog_Underground_Pipe01_100_Bent_90
-[2015.03.30-13.29.30:456][550]LogActorFactory: Actor Factory created SM_Cog_Underground_Pipe01_100_Bent_90
-[2015.03.30-13.30.13:142][ 70]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.30.48:884][932]LogTexture:Display: Building textures: T_Underground_Pipe_Valves_02_N (BC5)
-[2015.03.30-13.30.49:076][932]LogTexture:Display: Building textures: T_Underground_Pipe_Valves_02_M (AutoDXT)
-[2015.03.30-13.30.50:814][932]LogMaterial: Missing cached shader map for material M_COG_Underground_Pipe_Tjunction_Painted, compiling. 
-[2015.03.30-13.30.50:824][932]LogMaterial: Missing cached shader map for material M_COG_Underground_Pipe_Valves_02, compiling. 
-[2015.03.30-13.30.50:833][932]LogStaticMesh: Building static mesh SM_COG_Underground_Pipe_Valve_TJunction...
-[2015.03.30-13.30.51:129][932]LogStaticMesh: Built static mesh [296.057007ms] /Game/Assets/Meshes/SM_COG_Underground_Pipe_Valve_TJunction.SM_COG_Underground_Pipe_Valve_TJunction
-[2015.03.30-13.30.51:297][932]LogActorFactory: Actor Factory created SM_COG_Underground_Pipe_Valve_TJunction
-[2015.03.30-13.30.52:506][958]LogActorFactory: Actor Factory created SM_COG_Underground_Pipe_Valve_TJunction
-[2015.03.30-13.31.45:249][984]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.32.38:525][253]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Materials'
-[2015.03.30-13.32.39:268][254]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.03.30-13.32.39:322][255]LogMaterial: Missing cached shader map for material Material_1, compiling. 
-[2015.03.30-13.32.39:584][257]LogMaterial: Missing cached shader map for material Material_2, compiling. 
-[2015.03.30-13.32.39:591][257]LogMaterial: Missing cached shader map for material Material_3, compiling. 
-[2015.03.30-13.32.39:629][258]LogMaterial: Missing cached shader map for material Material_4, compiling. 
-[2015.03.30-13.32.39:650][259]LogMaterial: Missing cached shader map for material Material_5, compiling. 
-[2015.03.30-13.32.39:674][260]LogMaterial: Missing cached shader map for material Material_6, compiling. 
-[2015.03.30-13.32.49:584][632]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes'
-[2015.03.30-13.33.42:347][185]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.34.01:956][487]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000003F50480
-[2015.03.30-13.34.02:289][488]LogHttp:Warning: 0000000003F50480 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-13.34.02:289][488]LogHttp:Warning: 0000000003F50480 Response Header Content-Type: text/html
-[2015.03.30-13.34.02:289][488]LogHttp:Warning: 0000000003F50480 Response Header Cache-Control: no-cache
-[2015.03.30-13.34.02:289][488]LogHttp:Warning: 0000000003F50480 Response Header Content-Length: 2833
-[2015.03.30-13.34.02:289][488]LogHttp:Warning: 0000000003F50480 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-13.34.50:295][690]LogTexture:Display: Building textures: T_Door_Hinged_Metal_M (AutoDXT)
-[2015.03.30-13.34.53:520][690]LogMaterial: Missing cached shader map for material M_Door_Hinged_Metal, compiling. 
-[2015.03.30-13.34.53:530][690]LogStaticMesh: Building static mesh SM_Swing_Door...
-[2015.03.30-13.34.53:781][690]LogStaticMesh: Built static mesh [251.847000ms] /Game/Assets/Meshes/SM_Swing_Door.SM_Swing_Door
-[2015.03.30-13.34.53:979][690]LogActorFactory: Actor Factory created SM_Swing_Door
-[2015.03.30-13.35.00:580][691]LogSavePackage: Save=5802.669922ms
-[2015.03.30-13.35.00:580][691]LogSavePackage: Moving 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/KrisGubbins_Auto26EAF7E7C48C5AE6024AAF990A104D1F0.tmp' to 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/Autosaves/Game/Maps/KrisGubbins_Auto2.umap'
-[2015.03.30-13.35.00:667][691]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/KrisGubbins' took 6.360
-[2015.03.30-13.35.00:667][691]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.360
-[2015.03.30-13.35.00:746][691]LogActorFactory: Actor Factory created SM_Swing_Door
-[2015.03.30-13.35.03:995][740]LogActorFactory: Actor Factory created SM_Swing_Door
-[2015.03.30-13.36.33:033][911]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.36.36:787][167]LogTexture:Display: Building textures: T_Underground_PipeCap_N (BC5)
-[2015.03.30-13.36.36:912][167]LogTexture:Display: Building textures: T_Underground_PipeCap_M (AutoDXT)
-[2015.03.30-13.36.38:679][167]LogMaterial: Missing cached shader map for material M_COG_Underground_Pipecap_Yellow, compiling. 
-[2015.03.30-13.36.38:688][167]LogStaticMesh: Building static mesh SM_Underground_Pipe_Bracket01_WallMount02...
-[2015.03.30-13.36.38:943][167]LogStaticMesh: Built static mesh [255.306152ms] /Game/Assets/Meshes/SM_Underground_Pipe_Bracket01_WallMount02.SM_Underground_Pipe_Bracket01_WallMount02
-[2015.03.30-13.36.39:094][167]LogActorFactory: Actor Factory created SM_Underground_Pipe_Bracket01_WallMount02
-[2015.03.30-13.36.40:542][181]LogActorFactory: Actor Factory created SM_Underground_Pipe_Bracket01_WallMount02
-[2015.03.30-13.37.03:148][938]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.37.08:723][345]LogStaticMesh: Building static mesh SM_Underground_Pipe_Bracket01_WallMount...
-[2015.03.30-13.37.08:775][345]LogStaticMesh: Built static mesh [52.141689ms] /Game/Assets/Meshes/SM_Underground_Pipe_Bracket01_WallMount.SM_Underground_Pipe_Bracket01_WallMount
-[2015.03.30-13.37.08:860][347]LogActorFactory: Actor Factory created SM_Underground_Pipe_Bracket01_WallMount
-[2015.03.30-13.37.10:898][514]LogActorFactory: Actor Factory created SM_Underground_Pipe_Bracket01_WallMount
-[2015.03.30-13.37.22:487][421]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.37.23:180][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Underground_Pipe_Bracket01_WallMount02)
-[2015.03.30-13.37.26:196][733]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.38.57:850][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Security_Camera_Base)
-[2015.03.30-13.38.58:661][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Security_Camera_Lens)
-[2015.03.30-13.39.01:121][642]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000002CEA8B80
-[2015.03.30-13.39.01:121][642]LogHttp:Warning: 000000002CEA8B80 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-13.39.01:121][642]LogHttp:Warning: 000000002CEA8B80 Response Header Content-Type: text/html
-[2015.03.30-13.39.01:121][642]LogHttp:Warning: 000000002CEA8B80 Response Header Cache-Control: no-cache
-[2015.03.30-13.39.01:121][642]LogHttp:Warning: 000000002CEA8B80 Response Header Content-Length: 2833
-[2015.03.30-13.39.01:121][642]LogHttp:Warning: 000000002CEA8B80 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-13.39.01:603][670]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.03.30-13.39.07:386][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Security_Camera_Lens)
-[2015.03.30-13.39.12:055][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Security_Camera_Base)
-[2015.03.30-13.39.12:918][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Security_Camera_Lens)
-[2015.03.30-13.39.15:521][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Security_Camera_Lens)
-[2015.03.30-13.39.18:142][  1]Cmd: TRANSACTION UNDO
-[2015.03.30-13.39.18:142][  1]LogEditorTransaction: Undo Rotate Actors
-[2015.03.30-13.39.21:023][207]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Security_Camera_Base)
-[2015.03.30-13.39.21:680][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Security_Camera_Lens)
-[2015.03.30-13.39.22:896][370]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Security_Camera_Lens)
-[2015.03.30-13.39.32:270][338]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Security_Camera_Lens)
-[2015.03.30-13.40.32:220][101]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Blueprints'
-[2015.03.30-13.40.50:994][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_Alarm10...
-[2015.03.30-13.40.51:103][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_Scanner03...
-[2015.03.30-13.40.51:125][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_Scanner12...
-[2015.03.30-13.40.51:151][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_Scanner16...
-[2015.03.30-13.40.51:174][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_Scanner17...
-[2015.03.30-13.40.51:202][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_Scanner10...
-[2015.03.30-13.40.51:232][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_ScannerPivot05...
-[2015.03.30-13.40.51:263][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_Scanner_Change01...
-[2015.03.30-13.40.51:287][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_Scanner_Change04...
-[2015.03.30-13.40.51:297][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_ScannerPivot01...
-[2015.03.30-13.40.51:327][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_ScannerPivot04...
-[2015.03.30-13.40.51:353][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_ComputerBeep01...
-[2015.03.30-13.40.51:364][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_Scanner_Change05...
-[2015.03.30-13.40.51:372][ 61]LogAudioDerivedData:Display: Building compressed audio format OGG wave Blueprints_ScannerSwitch01...
-[2015.03.30-13.40.51:391][ 61]LogTexture:Display: Building textures: T_TilingNoise02_M (AutoDXT)
-[2015.03.30-13.40.51:451][ 61]LogMaterial: Missing cached shader map for material M_Security_Camera_Viewcone, compiling. 
-[2015.03.30-13.40.51:458][ 61]LogStaticMesh: Building static mesh SM_Security_Camera_Viewcone...
-[2015.03.30-13.40.51:745][ 61]LogStaticMesh: Built static mesh [286.520874ms] /Game/Assets/Meshes/SM_Security_Camera_Viewcone.SM_Security_Camera_Viewcone
-[2015.03.30-13.41.19:995][898]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2015.03.30-13.41.35:807][165]LogEditorViewport: Clicking on Actor (context menu): BP_Security_Camera_Tracking_C (BP_Security_Camera_Tracking)
-[2015.03.30-13.41.37:476][341]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-13.41.37:476][341]PIE: New page: PIE session: KrisGubbins (30 Mar 2015 15:41:37)
-[2015.03.30-13.41.37:480][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004075s)
-[2015.03.30-13.41.37:481][341]LogPlayLevel: PIE: World Init took: (0.000519s)
-[2015.03.30-13.41.37:481][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KrisGubbins.KrisGubbins to /Game/Maps/UEDPIE_0_KrisGubbins.KrisGubbins (0.004750s)
-[2015.03.30-13.41.37:514][341]LogWorld: Game class is 'LevelDesignGame_C'
-[2015.03.30-13.41.37:518][341]LogAIModule: Creating AISystem for world KrisGubbins
-[2015.03.30-13.41.37:535][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KrisGubbins.KrisGubbins up for play (max tick rate 0) at 2015.03.30-14.41.37
-[2015.03.30-13.41.37:537][341]LogWorld: Bringing up level for play took: 0.019244
-[2015.03.30-13.41.37:564][341]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_
+[2015.03.31-10.31.04:679][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.31-10.31.06:795][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-10.31.07:268][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-10.31.07:323][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.31-10.31.07:367][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/b00205833/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.31-10.31.07:367][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/b00205833/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.31-10.31.07:368][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.31-10.31.07:368][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.31-10.31.07:476][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.31-10.31.07:488][  0]LogDerivedDataCache: Using Local data cache path C:/Users/b00205833/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.31-10.31.07:779][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.31-10.31.07:779][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.31-10.31.08:116][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.31-10.31.08:182][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.31-10.31.08:855][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.31-10.31.09:035][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.31.09:035][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.31.09:036][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.31.09:036][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.31-10.31.09:036][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.31-10.31.09:043][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.31.09:201][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.31-10.31.09:201][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.31-10.31.09:269][  0]LogEngine: Initializing Engine...
+[2015.03.31-10.31.12:393][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.31-10.31.12:410][  0]LogInit: FAudioDevice initialized.
+[2015.03.31-10.31.12:441][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.31-10.31.12:462][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/b00205833/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.31-10.31.12:466][  0]LogInit: Texture streaming: Enabled
+[2015.03.31-10.31.12:536][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.31-10.31.12:536][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.31-10.31.12:536][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.31-10.31.12:536][  0]LogAnalytics: SetUserId 1c1697fb47dac04f2a65fca16d93b90d|8b63e09de55b46b8b41808be81ff4bd4|91c3eff8-617b-40bb-aeb6-a9057b0b07ad
+[2015.03.31-10.31.12:536][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.31-10.31.12:554][  0]LogInit: Transaction tracking system initialized
+[2015.03.31-10.31.12:687][  0]BlueprintLog: New page: Editor Load
+[2015.03.31-10.31.12:715][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2015.03.31-10.31.12:715][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.31-10.31.13:189][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-10.31.13:476][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-10.31.13:687][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.31-10.31.13:687][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.31-10.31.13:691][  0]LogConsoleResponse:Display: 
+[2015.03.31-10.31.13:797][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.31-10.31.13:905][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.31.13:905][  0]Cmd: MAP LOAD FILE="E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/StarterContent/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-10.31.13:905][  0]LightingResults: New page: Lighting Build
+[2015.03.31-10.31.13:916][  0]MapCheck: New page: Map Check
+[2015.03.31-10.31.13:916][  0]LightingResults: New page: Lighting Build
+[2015.03.31-10.31.13:923][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001648A980
+[2015.03.31-10.31.14:498][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.31-10.31.14:508][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.31-10.31.14:508][  0]Cmd: MAP CHECKDEP
+[2015.03.31-10.31.14:508][  0]MapCheck: New page: Minimal_Default - 31 Mar 2015 12:31:14
+[2015.03.31-10.31.14:575][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.987ms to complete.
+[2015.03.31-10.31.14:575][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.670
+[2015.03.31-10.31.14:715][  0]LogCollectionManager: Loaded 0 collections in 0.001310 seconds
+[2015.03.31-10.31.14:722][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1696 classes and 261 folders.
+[2015.03.31-10.31.14:757][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.03.31-10.31.14:797][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.31-10.31.14:798][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.31-10.31.14:832][  0]LogLoad: Full Startup: 12.42 seconds (BP compile: 0.06 seconds)
+[2015.03.31-10.31.14:868][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
+[2015.03.31-10.31.15:025][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.03.31-10.31.15:269][  4]LogAssetRegistry: Asset discovery search completed in 2.5646 seconds
+[2015.03.31-10.31.22:507][619]LogStaticMesh: Building static mesh trunking_straight-half...
+[2015.03.31-10.31.22:510][619]LogStaticMesh: Built static mesh [3.555143ms] /Game/architecture/trunking_straight-half.trunking_straight-half
+[2015.03.31-10.31.22:693][619]LogTexture:Display: Building textures: T_Rock_Slate_N (BC5)
+[2015.03.31-10.31.23:412][619]LogTexture:Display: Building textures: T_Rock_Smooth_Granite_D (AutoDXT)
+[2015.03.31-10.31.27:139][619]LogMaterial: Missing cached shader map for material M_Corridoe_Wall01, compiling. 
+[2015.03.31-10.31.27:175][619]LogTexture:Display: Building textures: S_light01 (AutoDXT)
+[2015.03.31-10.31.27:258][619]LogMaterial: Missing cached shader map for material M_Lighting, compiling. 
+[2015.03.31-10.31.27:263][619]LogStaticMesh: Building static mesh corridor-wall01...
+[2015.03.31-10.31.27:265][619]LogStaticMesh: Built static mesh [2.357014ms] /Game/architecture/corridor-wall01.corridor-wall01
+[2015.03.31-10.31.27:405][619]LogTexture:Display: Building textures: T_Metal_Steel_D (AutoDXT)
+[2015.03.31-10.31.30:389][619]LogTexture:Display: Building textures: T_Metal_Steel_N (BC5)
+[2015.03.31-10.31.30:891][619]LogMaterial: Missing cached shader map for material M_Trunking, compiling. 
+[2015.03.31-10.31.30:897][619]LogStaticMesh: Building static mesh trunking_corner...
+[2015.03.31-10.31.30:900][619]LogStaticMesh: Built static mesh [3.064903ms] /Game/architecture/trunking_corner.trunking_corner
+[2015.03.31-10.31.30:901][619]LogStaticMesh: Building static mesh trunking_L...
+[2015.03.31-10.31.30:904][619]LogStaticMesh: Built static mesh [2.779936ms] /Game/architecture/trunking_L.trunking_L
+[2015.03.31-10.31.30:905][619]LogStaticMesh: Building static mesh trunking_straight...
+[2015.03.31-10.31.30:907][619]LogStaticMesh: Built static mesh [2.253170ms] /Game/architecture/trunking_straight.trunking_straight
+[2015.03.31-10.31.30:909][619]LogMaterial: Missing cached shader map for material M_Fuse_Body, compiling. 
+[2015.03.31-10.31.30:915][619]LogMaterial: Missing cached shader map for material M_Fuse_Glass, compiling. 
+[2015.03.31-10.31.30:928][619]LogStaticMesh: Building static mesh fuse...
+[2015.03.31-10.31.31:024][619]LogStaticMesh: Built static mesh [96.309441ms] /Game/props/fuse.fuse
+[2015.03.31-10.31.31:043][619]LogStaticMesh: Building static mesh fuse-broken...
+[2015.03.31-10.31.31:140][619]LogStaticMesh: Built static mesh [96.357735ms] /Game/props/fuse-broken.fuse-broken
+[2015.03.31-10.31.31:212][619]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.03.31-10.31.32:518][619]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.03.31-10.31.32:559][619]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.03.31-10.31.32:761][619]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.03.31-10.31.32:790][619]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.03.31-10.31.32:949][619]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.03.31-10.31.33:066][619]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.03.31-10.31.33:121][619]Cmd: MAP LOAD FILE="E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/maps/model-workspace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-10.31.33:121][619]LightingResults: New page: Lighting Build
+[2015.03.31-10.31.33:146][619]LoadErrors: New page: Loading map: model-workspace.umap
+[2015.03.31-10.31.33:146][619]MapCheck: New page: Map Check
+[2015.03.31-10.31.33:146][619]LightingResults: New page: Lighting Build
+[2015.03.31-10.31.33:157][619]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE07BA0
+[2015.03.31-10.31.33:179][619]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.31-10.31.33:182][619]LogAIModule: Creating AISystem for world model-workspace
+[2015.03.31-10.31.33:210][619]Cmd: MAP CHECKDEP
+[2015.03.31-10.31.33:210][619]MapCheck: New page: model-workspace - 31 Mar 2015 12:31:33
+[2015.03.31-10.31.33:293][619]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.565ms to complete.
+[2015.03.31-10.31.33:294][619]LogFileHelpers: Loading map 'model-workspace' took 0.175
+[2015.03.31-10.31.44:139][475]LogTexture:Display: Building textures: T_Metal_Gold_D (AutoDXT)
+[2015.03.31-10.31.47:677][475]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2015.03.31-10.31.47:886][475]LogTexture:Display: Building textures: T_Metal_Rust_N (BC5)
+[2015.03.31-10.31.48:780][475]LogTexture:Display: Building textures: T_Metal_Rust_D (AutoDXT)
+[2015.03.31-10.31.53:469][475]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2015.03.31-10.31.53:499][475]LogTexture:Display: Building textures: T_Tech_Hex_Tile_M (AutoDXT)
+[2015.03.31-10.31.53:915][475]LogTexture:Display: Building textures: T_Tech_Hex_Tile_N (BC5)
+[2015.03.31-10.31.54:036][475]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2015.03.31-10.31.54:212][475]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_D (AutoDXT)
+[2015.03.31-10.31.58:315][475]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_N (BC5)
+[2015.03.31-10.31.58:855][475]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_M (AutoDXT)
+[2015.03.31-10.32.02:250][475]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2015.03.31-10.32.02:276][475]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.03.31-10.32.02:511][475]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.03.31-10.32.02:951][475]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.03.31-10.32.02:962][475]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.03.31-10.32.03:062][475]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.03.31-10.32.03:270][475]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.03.31-10.32.03:308][475]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.03.31-10.32.03:431][475]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.03.31-10.32.07:850][475]Cmd: MAP LOAD FILE="E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/maps/main-level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-10.32.07:851][475]LightingResults: New page: Lighting Build
+[2015.03.31-10.32.07:872][475]LoadErrors: New page: Loading map: main-level.umap
+[2015.03.31-10.32.07:873][475]MapCheck: New page: Map Check
+[2015.03.31-10.32.07:873][475]LightingResults: New page: Lighting Build
+[2015.03.31-10.32.07:881][475]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C1B0EA0
+[2015.03.31-10.32.07:927][475]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.31-10.32.07:930][475]LogAIModule: Creating AISystem for world main-level
+[2015.03.31-10.32.07:951][475]Cmd: MAP CHECKDEP
+[2015.03.31-10.32.07:951][475]MapCheck: New page: main-level - 31 Mar 2015 12:32:07
+[2015.03.31-10.32.08:031][475]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.898ms to complete.
+[2015.03.31-10.32.08:031][475]LogFileHelpers: Loading map 'main-level' took 0.183
+[2015.03.31-10.32.14:868][976]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000015676400
+[2015.03.31-10.32.14:873][976]LogHttp:Warning: 0000000015676400 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.32.14:873][976]LogHttp:Warning: 0000000015676400 Response Header Content-Type: text/html
+[2015.03.31-10.32.14:873][976]LogHttp:Warning: 0000000015676400 Response Header Cache-Control: no-cache
+[2015.03.31-10.32.14:873][976]LogHttp:Warning: 0000000015676400 Response Header Content-Length: 2833
+[2015.03.31-10.32.14:873][976]LogHttp:Warning: 0000000015676400 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.32.29:240][945]Cmd: MAP LOAD FILE="E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/maps/KrisGubbins.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-10.32.29:240][945]LightingResults: New page: Lighting Build
+[2015.03.31-10.32.29:267][945]LoadErrors: New page: Loading map: KrisGubbins.umap
+[2015.03.31-10.32.29:268][945]MapCheck: New page: Map Check
+[2015.03.31-10.32.29:268][945]LightingResults: New page: Lighting Build
+[2015.03.31-10.32.29:276][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C311260
+[2015.03.31-10.32.29:287][945]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.31-10.32.29:288][945]LogAIModule: Creating AISystem for world KrisGubbins
+[2015.03.31-10.32.29:527][945]Cmd: MAP CHECKDEP
+[2015.03.31-10.32.29:527][945]MapCheck: New page: KrisGubbins - 31 Mar 2015 12:32:29
+[2015.03.31-10.32.29:631][945]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.762ms to complete.
+[2015.03.31-10.32.29:631][945]LogFileHelpers: Loading map 'KrisGubbins' took 0.393
+[2015.03.31-10.32.46:053][414]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2015.03.31-10.32.48:799][662]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes'
+[2015.03.31-10.33.24:839][190]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.31-10.33.26:681][346]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
+[2015.03.31-10.37.02:096][675]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/props'
+[2015.03.31-10.37.04:062][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/architecture'
+[2015.03.31-10.37.14:880][255]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000135F1440
+[2015.03.31-10.37.14:897][255]LogHttp:Warning: 00000000135F1440 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.37.14:897][255]LogHttp:Warning: 00000000135F1440 Response Header Content-Type: text/html
+[2015.03.31-10.37.14:897][255]LogHttp:Warning: 00000000135F1440 Response Header Cache-Control: no-cache
+[2015.03.31-10.37.14:897][255]LogHttp:Warning: 00000000135F1440 Response Header Content-Length: 2833
+[2015.03.31-10.37.14:897][255]LogHttp:Warning: 00000000135F1440 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.42.15:326][468]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000135F33C0
+[2015.03.31-10.42.15:659][469]LogHttp:Warning: 00000000135F33C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.42.15:659][469]LogHttp:Warning: 00000000135F33C0 Response Header Content-Type: text/html
+[2015.03.31-10.42.15:659][469]LogHttp:Warning: 00000000135F33C0 Response Header Cache-Control: no-cache
+[2015.03.31-10.42.15:659][469]LogHttp:Warning: 00000000135F33C0 Response Header Content-Length: 2833
+[2015.03.31-10.42.15:659][469]LogHttp:Warning: 00000000135F33C0 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.42.29:469][508]LogSavePackage: Save=51.056160ms
+[2015.03.31-10.42.29:469][508]LogSavePackage: Moving 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/KrisGubbins_Auto1D6AF14CF4AF91686ED45D696AC99E727.tmp' to 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/Autosaves/Game/maps/KrisGubbins_Auto1.umap'
+[2015.03.31-10.42.29:481][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maps/KrisGubbins' took 0.406
+[2015.03.31-10.42.29:481][508]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.406
+[2015.03.31-10.47.14:821][366]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000018D1B040
+[2015.03.31-10.47.15:155][367]LogHttp:Warning: 0000000018D1B040 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.47.15:155][367]LogHttp:Warning: 0000000018D1B040 Response Header Content-Type: text/html
+[2015.03.31-10.47.15:155][367]LogHttp:Warning: 0000000018D1B040 Response Header Cache-Control: no-cache
+[2015.03.31-10.47.15:155][367]LogHttp:Warning: 0000000018D1B040 Response Header Content-Length: 2833
+[2015.03.31-10.47.15:155][367]LogHttp:Warning: 0000000018D1B040 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.48.20:374][780]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/props'
+[2015.03.31-10.48.21:654][845]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2015.03.31-10.48.21:977][876]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/architecture'
+[2015.03.31-10.48.33:631][ 40]LogUProjectInfo: Found projects:
+[2015.03.31-10.48.34:787][140]Cmd: CLOSE_SLATE_MAINFRAME
+[2015.03.31-10.48.36:113][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maps/KrisGubbins" FILE="E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/maps/KrisGubbins.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.31-10.48.36:207][140]LogSavePackage: Save=49.684151ms
+[2015.03.31-10.48.36:207][140]LogSavePackage: Moving 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Saved/KrisGubbinsCAA6E21B445144DF566A47A4B343A5F4.tmp' to 'E:/3D level Design/3D level design assets stuff/1415-3D-Level-Design/Content/maps/KrisGubbins.umap'
+[2015.03.31-10.48.36:238][140]LogFileHelpers: Saving map 'KrisGubbins' took 0.232
+[2015.03.31-10.48.36:665][141]Cmd: QUIT_EDITOR
+[2015.03.31-10.48.36:930][141]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000001354BC80
+[2015.03.31-10.48.36:930][141]LogExit: Preparing to exit.
+[2015.03.31-10.48.37:983][141]LogExit: Editor shut down
+[2015.03.31-10.48.37:983][141]LogExit: Transaction tracking system shut down
+[2015.03.31-10.48.37:984][141]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015693A60
+[2015.03.31-10.48.37:985][141]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015692980
+[2015.03.31-10.48.37:985][141]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C50AE0
+[2015.03.31-10.48.37:985][141]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021D21F80
+[2015.03.31-10.48.38:032][141]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C0F2F20
+[2015.03.31-10.48.38:032][141]LogExit: Object subsystem successfully closed.
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.03.31-10.48.38:076][141]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.03.31-10.48.38:582][141]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.03.31-10.48.38:810][141]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.03.31-10.48.38:810][141]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.03.31-10.48.38:810][141]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.31-10.48.38:811][141]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.31-10.48.38:812][141]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.31-10.48.38:812][141]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.31-10.48.38:812][141]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.31-10.48.38:812][141]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.03.31-10.48.38:812][141]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.03.31-10.48.38:812][141]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.03.31-10.48.39:031][141]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.03.31-10.48.39:032][141]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.03.31-10.48.39:033][141]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.03.31-10.48.39:033][141]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.31-10.48.39:033][141]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.31-10.48.39:134][141]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.31-10.48.39:134][141]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.31-10.48.39:136][141]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.31-10.48.39:136][141]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.31-10.48.39:137][141]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.31-10.48.39:140][141]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.31-10.48.39:146][141]LogDerivedDataCache: Shutdown
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.31-10.48.39:146][141]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.31-10.48.39:147][141]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.31-10.48.39:147][141]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.31-10.48.39:147][141]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.31-10.48.39:147][141]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.31-10.48.39:147][141]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.31-10.48.39:147][141]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.31-10.48.39:147][141]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.31-10.48.39:147][141]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.31-10.48.39:147][141]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.31-10.48.39:148][141]LogExit: Exiting.
+[2015.03.31-10.48.39:153][141]Log file closed, 03/31/15 11:48:39
