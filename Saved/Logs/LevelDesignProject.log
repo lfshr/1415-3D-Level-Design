@@ -292,4 +292,35 @@ Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en
 [2015.03.31-10.36.05:345][609]BlueprintEditorCompileResults: Info [1826.05] Compile of fuse successful! [in 176 ms]
 [2015.03.31-10.36.52:177][148]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000395C4100
 [2015.03.31-10.36.52:177][148]LogHttp:Warning: 00000000395C4100 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.31-10.36.52:177][148]LogHttp:Warning: 00000000395C4100 Response Hea
+[2015.03.31-10.36.52:177][148]LogHttp:Warning: 00000000395C4100 Response Header Content-Type: text/html
+[2015.03.31-10.36.52:177][148]LogHttp:Warning: 00000000395C4100 Response Header Cache-Control: no-cache
+[2015.03.31-10.36.52:177][148]LogHttp:Warning: 00000000395C4100 Response Header Content-Length: 2833
+[2015.03.31-10.36.52:177][148]LogHttp:Warning: 00000000395C4100 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.39.05:610][906]LogSavePackage: Save=541.599365ms
+[2015.03.31-10.39.05:611][906]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/model-workspace76E422DE404032DFE31B2C85F02E0029.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/maps/model-workspace.umap'
+[2015.03.31-10.39.05:657][906]LogFileHelpers: Saving map 'model-workspace' took 0.912
+[2015.03.31-10.39.05:685][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/fuse" FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/fuse.uasset" SILENT=true
+[2015.03.31-10.39.06:231][906]LogSavePackage: Save=508.339020ms
+[2015.03.31-10.39.06:231][906]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/fuse86C20D534AEF9E5D7925A89D7A786D42.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/fuse.uasset'
+[2015.03.31-10.39.06:246][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/LevelDesignPlayer" FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/LevelDesignPlayer.uasset" SILENT=true
+[2015.03.31-10.39.06:347][906]LogSavePackage: Save=75.007133ms
+[2015.03.31-10.39.06:347][906]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/LevelDesignPlayerB885E33F49900F1D53405EBE150B12E1.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/LevelDesignPlayer.uasset'
+[2015.03.31-10.40.05:302][198]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000116982C0
+[2015.03.31-10.40.05:636][199]LogHttp:Warning: 00000000116982C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.40.05:636][199]LogHttp:Warning: 00000000116982C0 Response Header Content-Type: text/html
+[2015.03.31-10.40.05:636][199]LogHttp:Warning: 00000000116982C0 Response Header Cache-Control: no-cache
+[2015.03.31-10.40.05:636][199]LogHttp:Warning: 00000000116982C0 Response Header Content-Length: 2833
+[2015.03.31-10.40.05:636][199]LogHttp:Warning: 00000000116982C0 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.41.52:326][519]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000034AA7E40
+[2015.03.31-10.41.52:659][520]LogHttp:Warning: 0000000034AA7E40 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.41.52:659][520]LogHttp:Warning: 0000000034AA7E40 Response Header Content-Type: text/html
+[2015.03.31-10.41.52:659][520]LogHttp:Warning: 0000000034AA7E40 Response Header Cache-Control: no-cache
+[2015.03.31-10.41.52:659][520]LogHttp:Warning: 0000000034AA7E40 Response Header Content-Length: 2833
+[2015.03.31-10.41.52:659][520]LogHttp:Warning: 0000000034AA7E40 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.46.52:314][419]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000033C74480
+[2015.03.31-10.46.52:648][420]LogHttp:Warning: 0000000033C74480 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.46.52:648][420]LogHttp:Warning: 0000000033C74480 Response Header Content-Type: text/html
+[2015.03.31-10.46.52:648][420]LogHttp:Warning: 0000000033C74480 Response Header Cache-Control: no-cache
+[2015.03.31-10.46.52:648][420]LogHttp:Warning: 0000000033C74480 Response Header Content-Length: 2833
+[2015.03.31-10.46.52:648][420]LogHttp:Warning: 0000000033C74480 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.51.52:635][320]LogHttp:Warning: Response payload was 0 bytes, con
