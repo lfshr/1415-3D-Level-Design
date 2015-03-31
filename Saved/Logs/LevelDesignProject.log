@@ -1,4 +1,4 @@
-﻿Log file open, 03/30/15 15:57:02
+﻿Log file open, 03/31/15 11:05:41
 LogInit:Display: Running engine for game: LevelDesignProject
 LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -6,849 +6,290 @@ LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
 LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.03.30-14.57.02:818][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.03.30-14.57.02:868][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.03.30-14.57.02:879][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.03.30-14.57.02:887][  0]LogInit: Object subsystem initialized
-[2015.03.30-14.57.02:888][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.03.30-14.57.02:888][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.03.30-14.57.02:888][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.03.30-14.57.02:888][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.03.30-14.57.02:888][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2015.03.30-14.57.02:889][  0]LogInit: Selected Device Profile: [Windows]
-[2015.03.30-14.57.02:889][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.03.30-14.57.02:943][  0]LogInit: Computer: PC-P-E113B-07
-[2015.03.30-14.57.02:943][  0]LogInit: User: b00215095
-[2015.03.30-14.57.02:943][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.03.30-14.57.02:943][  0]LogInit: High frequency timer resolution =3.312695 MHz
-[2015.03.30-14.57.02:943][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx) Virtual=8192.0GB
-[2015.03.30-14.57.02:943][  0]LogMemory: Platform Memory Stats for Windows
-[2015.03.30-14.57.02:943][  0]LogMemory: Process Physical Memory: 48.21 MB used, 48.21 MB peak
-[2015.03.30-14.57.02:943][  0]LogMemory: Process Virtual Memory: 24.51 MB used, 24.51 MB peak
-[2015.03.30-14.57.02:943][  0]LogMemory: Physical Memory: 5056.46 MB used, 16136.93 MB total
-[2015.03.30-14.57.02:943][  0]LogMemory: Virtual Memory: 277.27 MB used, 8388608.00 MB total
-[2015.03.30-14.57.02:965][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K4000 (Feature Level 11_0)
-[2015.03.30-14.57.02:965][  0]LogD3D11RHI: Adapter has 3008MB of dedicated video memory, 0MB of dedicated system memory, and 7812MB of shared system memory, 2 output[s]
-[2015.03.30-14.57.02:965][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.03.30-14.57.02:970][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.03.30-14.57.02:976][  0]LogD3D11RHI: Async texture creation enabled
-[2015.03.30-14.57.03:027][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
-[2015.03.30-14.57.03:081][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.03.31-10.05.41:927][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.31-10.05.41:977][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.31-10.05.41:987][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.31-10.05.41:995][  0]LogInit: Object subsystem initialized
+[2015.03.31-10.05.41:997][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.31-10.05.41:997][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-10.05.41:997][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.31-10.05.41:997][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-10.05.41:997][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.03.31-10.05.41:997][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.31-10.05.41:997][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.31-10.05.42:029][  0]LogInit: Computer: PC-P-E113B-07
+[2015.03.31-10.05.42:029][  0]LogInit: User: B00215095
+[2015.03.31-10.05.42:029][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.31-10.05.42:029][  0]LogInit: High frequency timer resolution =3.312685 MHz
+[2015.03.31-10.05.42:030][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx) Virtual=8192.0GB
+[2015.03.31-10.05.42:030][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.31-10.05.42:030][  0]LogMemory: Process Physical Memory: 48.22 MB used, 48.22 MB peak
+[2015.03.31-10.05.42:030][  0]LogMemory: Process Virtual Memory: 24.38 MB used, 24.39 MB peak
+[2015.03.31-10.05.42:030][  0]LogMemory: Physical Memory: 3179.45 MB used, 16136.93 MB total
+[2015.03.31-10.05.42:030][  0]LogMemory: Virtual Memory: 276.27 MB used, 8388608.00 MB total
+[2015.03.31-10.05.42:050][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K4000 (Feature Level 11_0)
+[2015.03.31-10.05.42:050][  0]LogD3D11RHI: Adapter has 3008MB of dedicated video memory, 0MB of dedicated system memory, and 7812MB of shared system memory, 2 output[s]
+[2015.03.31-10.05.42:050][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.31-10.05.42:055][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.31-10.05.42:061][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.31-10.05.42:108][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.31-10.05.42:158][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.03.30-14.57.03:081][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.03.31-10.05.42:158][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.03.30-14.57.03:204][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.03.30-14.57.05:624][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.30-14.57.06:049][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.30-14.57.06:113][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.03.30-14.57.06:160][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/b00215095/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.03.30-14.57.06:160][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/b00215095/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.03.30-14.57.06:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.03.30-14.57.06:161][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.03.30-14.57.06:266][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.03.30-14.57.06:277][  0]LogDerivedDataCache: Using Local data cache path C:/Users/b00215095/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.03.30-14.57.06:660][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.03.30-14.57.06:660][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.03.30-14.57.06:983][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.03.30-14.57.07:045][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.03.30-14.57.07:777][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.03.30-14.57.07:980][  0]SourceControl: Info Source control is disabled
-[2015.03.30-14.57.07:980][  0]SourceControl: Info Source control is disabled
-[2015.03.30-14.57.07:980][  0]SourceControl: Info Source control is disabled
-[2015.03.30-14.57.07:980][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.03.30-14.57.07:980][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.03.30-14.57.07:986][  0]SourceControl: Info Source control is disabled
-[2015.03.30-14.57.08:144][  0]LogObj: 24231 objects as part of root set at end of initial load.
-[2015.03.30-14.57.08:144][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
-[2015.03.30-14.57.08:234][  0]LogEngine: Initializing Engine...
-[2015.03.30-14.57.10:446][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.03.30-14.57.10:493][  0]LogInit: FAudioDevice initialized.
-[2015.03.30-14.57.10:529][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.03.30-14.57.10:553][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/b00215095/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.03.30-14.57.10:557][  0]LogInit: Texture streaming: Enabled
-[2015.03.30-14.57.10:630][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.03.30-14.57.10:630][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
-[2015.03.30-14.57.10:630][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
-[2015.03.30-14.57.10:630][  0]LogAnalytics: SetUserId bd44b4604701e80993ec6cbabf67d6b0|68682b651c3b41388d8a3028a75c7201|4642f44f-ad1b-4c43-bb75-e864ecc1445a
-[2015.03.30-14.57.10:630][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.03.30-14.57.10:646][  0]LogInit: Transaction tracking system initialized
-[2015.03.30-14.57.10:801][  0]BlueprintLog: New page: Editor Load
-[2015.03.30-14.57.10:829][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
-[2015.03.30-14.57.10:829][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.03.30-14.57.11:326][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.30-14.57.11:676][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.30-14.57.11:897][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.03.30-14.57.11:898][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.03.30-14.57.11:902][  0]LogConsoleResponse:Display: 
-[2015.03.30-14.57.12:013][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.03.30-14.57.12:134][  0]SourceControl: Info Source control is disabled
-[2015.03.30-14.57.12:134][  0]Cmd: MAP LOAD FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/StarterContent/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.03.30-14.57.12:135][  0]LightingResults: New page: Lighting Build
-[2015.03.30-14.57.12:152][  0]MapCheck: New page: Map Check
-[2015.03.30-14.57.12:152][  0]LightingResults: New page: Lighting Build
-[2015.03.30-14.57.12:159][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003E5A980
-[2015.03.30-14.57.12:831][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.03.30-14.57.12:840][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.03.30-14.57.12:841][  0]Cmd: MAP CHECKDEP
-[2015.03.30-14.57.12:841][  0]MapCheck: New page: Minimal_Default - 30 Mar 2015 16:57:12
-[2015.03.30-14.57.12:907][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.847ms to complete.
-[2015.03.30-14.57.12:907][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.773
-[2015.03.30-14.57.13:028][  0]LogCollectionManager: Loaded 0 collections in 0.001300 seconds
-[2015.03.30-14.57.13:039][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 1696 classes and 261 folders.
-[2015.03.30-14.57.13:070][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
-[2015.03.30-14.57.13:114][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.03.30-14.57.13:115][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.03.30-14.57.13:121][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.03.30-14.57.13:146][  0]LogLoad: Full Startup: 13.74 seconds (BP compile: 0.06 seconds)
-[2015.03.30-14.57.13:510][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/LevelDesignContent'
-[2015.03.30-14.57.13:654][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2015.03.30-14.57.14:499][  3]LogAssetRegistry: Asset discovery search completed in 3.6807 seconds
-[2015.03.30-14.57.37:570][228]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/LevelDesignContent/Blueprints'
-[2015.03.30-14.57.38:703][327]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/LevelDesignContent'
-[2015.03.30-14.57.41:858][636]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
-[2015.03.30-14.57.42:199][667]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.03.30-14.57.43:931][812]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
-[2015.03.30-14.57.44:395][851]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
-[2015.03.30-14.57.46:627][ 46]LoadErrors:Error: Error Failed import for BlueprintGeneratedClass
-[2015.03.30-14.57.46:761][ 46]Cmd: MAP LOAD FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/maps/main-level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.03.30-14.57.46:761][ 46]LightingResults: New page: Lighting Build
-[2015.03.30-14.57.46:781][ 46]LoadErrors: New page: Loading map: main-level.umap
-[2015.03.30-14.57.46:781][ 46]MapCheck: New page: Map Check
-[2015.03.30-14.57.46:781][ 46]LightingResults: New page: Lighting Build
-[2015.03.30-14.57.46:788][ 46]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C07C720
-[2015.03.30-14.57.46:797][ 46]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.03.30-14.57.46:884][ 46]LogAIModule: Creating AISystem for world main-level
-[2015.03.30-14.57.46:907][ 46]Cmd: MAP CHECKDEP
-[2015.03.30-14.57.46:908][ 46]MapCheck: New page: main-level - 30 Mar 2015 16:57:46
-[2015.03.30-14.57.46:979][ 46]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.623ms to complete.
-[2015.03.30-14.57.46:980][ 46]LogFileHelpers: Loading map 'main-level' took 0.221
-[2015.03.30-14.57.47:918][ 99]Cmd: MAP LOAD FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/maps/model-workspace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.03.30-14.57.47:918][ 99]LightingResults: New page: Lighting Build
-[2015.03.30-14.57.47:956][ 99]LoadErrors: New page: Loading map: model-workspace.umap
-[2015.03.30-14.57.47:957][ 99]MapCheck: New page: Map Check
-[2015.03.30-14.57.47:957][ 99]LightingResults: New page: Lighting Build
-[2015.03.30-14.57.47:965][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015F0A520
-[2015.03.30-14.57.47:982][ 99]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.03.30-14.57.48:090][ 99]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-14.57.48:117][ 99]Cmd: MAP CHECKDEP
-[2015.03.30-14.57.48:117][ 99]MapCheck: New page: model-workspace - 30 Mar 2015 16:57:48
-[2015.03.30-14.57.48:208][ 99]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.046ms to complete.
-[2015.03.30-14.57.48:209][ 99]LogFileHelpers: Loading map 'model-workspace' took 0.294
-[2015.03.30-14.57.51:264][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fuse)
-[2015.03.30-14.57.52:525][396]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.03.30-14.57.57:037][724]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.03.30-14.58.08:237][544]LogRenderer:Warning: Reallocating scene render targets to support 1208x904 (Frame:1840).
-[2015.03.30-14.58.13:174][ 35]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000002D205D00
-[2015.03.30-14.58.13:174][ 35]LogHttp:Warning: 000000002D205D00 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-14.58.13:174][ 35]LogHttp:Warning: 000000002D205D00 Response Header Content-Type: text/html
-[2015.03.30-14.58.13:174][ 35]LogHttp:Warning: 000000002D205D00 Response Header Cache-Control: no-cache
-[2015.03.30-14.58.13:174][ 35]LogHttp:Warning: 000000002D205D00 Response Header Content-Length: 2833
-[2015.03.30-14.58.13:174][ 35]LogHttp:Warning: 000000002D205D00 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-14.59.40:081][924]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.03.30-14.59.41:983][ 73]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/data'
-[2015.03.30-15.00.02:785][282]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/data'
-[2015.03.30-15.00.13:876][240]LogEnum:Warning: Enum Text FUSETYPE::NewEnumerator0 for Enum FUSETYPE failed to resolve to any value
-[2015.03.30-15.01.10:791][344]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000247249C0
-[2015.03.30-15.01.11:125][345]LogHttp:Warning: 00000000247249C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.01.11:125][345]LogHttp:Warning: 00000000247249C0 Response Header Content-Type: text/html
-[2015.03.30-15.01.11:125][345]LogHttp:Warning: 00000000247249C0 Response Header Cache-Control: no-cache
-[2015.03.30-15.01.11:125][345]LogHttp:Warning: 00000000247249C0 Response Header Content-Length: 2833
-[2015.03.30-15.01.11:125][345]LogHttp:Warning: 00000000247249C0 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.01.26:400][774]LogEnum:Warning: Enum Text FUSETYPE::NewEnumerator1 for Enum FUSETYPE failed to resolve to any value
-[2015.03.30-15.01.54:182][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/data/FUSETYPE" FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/data/FUSETYPE.uasset" SILENT=true
-[2015.03.30-15.01.54:552][ 92]LogSavePackage: Save=359.082550ms
-[2015.03.30-15.01.54:554][ 92]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/FUSETYPE208CE4234FB8D6C36555C6B1F839A8CF.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/data/FUSETYPE.uasset'
-[2015.03.30-15.02.40:202][194]LogMetaData: Removing '/Game/Blueprints/data/E_FuseType.E_FuseType' ref from Metadata '/Game/Blueprints/data/FUSETYPE.PackageMetaData'
-[2015.03.30-15.02.40:264][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/data/E_FuseType" FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/data/E_FuseType.uasset" SILENT=true
-[2015.03.30-15.02.40:575][194]LogSavePackage: Save=4.305860ms
-[2015.03.30-15.02.40:575][194]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/E_FuseTypeCBF89B81497D085112B9E09EBD682B4E.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/data/E_FuseType.uasset'
-[2015.03.30-15.03.00:880][268]LogMetaData: Removing '/Game/Blueprints/data/EFuseType.EFuseType' ref from Metadata '/Game/Blueprints/data/E_FuseType.PackageMetaData'
-[2015.03.30-15.03.00:956][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/data/EFuseType" FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/data/EFuseType.uasset" SILENT=true
-[2015.03.30-15.03.00:964][268]LogSavePackage: Save=4.757758ms
-[2015.03.30-15.03.00:964][268]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/EFuseType884421234AFA5D2BE24CA99BA37C18F5.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/Blueprints/data/EFuseType.uasset'
-[2015.03.30-15.03.13:748][736]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000000D5EE780
-[2015.03.30-15.03.14:082][737]LogHttp:Warning: 000000000D5EE780 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.03.14:082][737]LogHttp:Warning: 000000000D5EE780 Response Header Content-Type: text/html
-[2015.03.30-15.03.14:082][737]LogHttp:Warning: 000000000D5EE780 Response Header Cache-Control: no-cache
-[2015.03.30-15.03.14:082][737]LogHttp:Warning: 000000000D5EE780 Response Header Content-Length: 2833
-[2015.03.30-15.03.14:082][737]LogHttp:Warning: 000000000D5EE780 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.05.11:698][579]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000001E6D6E80
-[2015.03.30-15.05.11:703][579]LogHttp:Warning: 000000001E6D6E80 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.05.11:703][579]LogHttp:Warning: 000000001E6D6E80 Response Header Content-Type: text/html
-[2015.03.30-15.05.11:703][579]LogHttp:Warning: 000000001E6D6E80 Response Header Cache-Control: no-cache
-[2015.03.30-15.05.11:703][579]LogHttp:Warning: 000000001E6D6E80 Response Header Content-Length: 2833
-[2015.03.30-15.05.11:703][579]LogHttp:Warning: 000000001E6D6E80 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.05.22:765][225]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/physics'
-[2015.03.30-15.05.23:063][245]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/props'
-[2015.03.30-15.05.24:575][294]LogActorFactory: Actor Factory created fuse
-[2015.03.30-15.05.26:543][402]LogActorFactory: Actor Factory created fuse-broken
-[2015.03.30-15.06.33:967][703]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000002DD6E780
-[2015.03.30-15.06.33:967][703]LogHttp:Warning: 000000002DD6E780 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.06.33:967][703]LogHttp:Warning: 000000002DD6E780 Response Header Content-Type: text/html
-[2015.03.30-15.06.33:967][703]LogHttp:Warning: 000000002DD6E780 Response Header Cache-Control: no-cache
-[2015.03.30-15.06.33:967][703]LogHttp:Warning: 000000002DD6E780 Response Header Content-Length: 2833
-[2015.03.30-15.06.33:967][703]LogHttp:Warning: 000000002DD6E780 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.08.08:283][223]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.08.08:341][223]BlueprintEditorCompileResults: Info [0668.97] Compile of fuse successful! [in 58 ms]
-[2015.03.30-15.08.13:142][441]LogSavePackage: Save=416.220032ms
-[2015.03.30-15.08.13:143][441]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/model-workspace_Auto1D0D4B07741634B6808BE0997A3A947CF.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/maps/model-workspace_Auto1.umap'
-[2015.03.30-15.08.13:154][441]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maps/model-workspace' took 0.659
-[2015.03.30-15.08.13:154][441]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.659
-[2015.03.30-15.08.13:192][441]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/fuse] ([1] browsable assets)...
-[2015.03.30-15.08.13:247][441]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/fuse.fuse]
-[2015.03.30-15.08.13:247][441]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/fuse]
-[2015.03.30-15.08.13:672][441]LogSavePackage: Save=418.485870ms
-[2015.03.30-15.08.13:672][441]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/fuse_Auto1E7ACED71414D7277BBA6F8BB39284305.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/Blueprints/fuse_Auto1.uasset'
-[2015.03.30-15.08.13:677][441]LogFileHelpers: Auto-saving content packages took 0.523
-[2015.03.30-15.08.13:745][446]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000206BD280
-[2015.03.30-15.08.13:745][446]LogHttp:Warning: 00000000206BD280 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.08.13:745][446]LogHttp:Warning: 00000000206BD280 Response Header Content-Type: text/html
-[2015.03.30-15.08.13:745][446]LogHttp:Warning: 00000000206BD280 Response Header Cache-Control: no-cache
-[2015.03.30-15.08.13:745][446]LogHttp:Warning: 00000000206BD280 Response Header Content-Length: 2833
-[2015.03.30-15.08.13:745][446]LogHttp:Warning: 00000000206BD280 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.09.30:452][816]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.03.30-15.09.31:704][902]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000031073200
-[2015.03.30-15.09.31:704][902]LogHttp:Warning: 0000000031073200 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.09.31:704][902]LogHttp:Warning: 0000000031073200 Response Header Content-Type: text/html
-[2015.03.30-15.09.31:704][902]LogHttp:Warning: 0000000031073200 Response Header Cache-Control: no-cache
-[2015.03.30-15.09.31:704][902]LogHttp:Warning: 0000000031073200 Response Header Content-Length: 2833
-[2015.03.30-15.09.31:704][902]LogHttp:Warning: 0000000031073200 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.10.34:048][  6]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000206BD600
-[2015.03.30-15.10.34:048][  6]LogHttp:Warning: 00000000206BD600 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.10.34:048][  6]LogHttp:Warning: 00000000206BD600 Response Header Content-Type: text/html
-[2015.03.30-15.10.34:048][  6]LogHttp:Warning: 00000000206BD600 Response Header Cache-Control: no-cache
-[2015.03.30-15.10.34:048][  6]LogHttp:Warning: 00000000206BD600 Response Header Content-Length: 2833
-[2015.03.30-15.10.34:048][  6]LogHttp:Warning: 00000000206BD600 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.10.46:529][767]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.10.46:591][767]BlueprintEditorCompileResults: Info [0827.22] Compile of fuse successful! [in 61 ms]
-[2015.03.30-15.10.49:902][911]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.03.30-15.10.50:312][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/data'
-[2015.03.30-15.10.51:854][ 31]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.03.30-15.10.53:290][100]LogLinker:Warning: Can't find file '/Game/Blueprints/fuse'
-[2015.03.30-15.10.53:290][100]LogLinker: Can't find file '/Game/Blueprints/fuse'
-[2015.03.30-15.10.53:290][100]LogLinker:Warning: Can't find file '/Game/Blueprints/fuse'
-[2015.03.30-15.10.53:291][100]LogLinker: Can't find file '/Game/Blueprints/fuse'
-[2015.03.30-15.10.53:668][118]LogLinker:Warning: Can't find file '/Game/Blueprints/fuse'
-[2015.03.30-15.10.53:668][118]LogLinker: Can't find file '/Game/Blueprints/fuse'
-[2015.03.30-15.10.53:668][118]LogLinker:Warning: Can't find file '/Game/Blueprints/fuse'
-[2015.03.30-15.10.53:668][118]LogLinker: Can't find file '/Game/Blueprints/fuse'
-[2015.03.30-15.10.58:255][388]LogEditorViewport: Clicking on Actor (LMB): fuse_C (fuse2)
-[2015.03.30-15.11.04:291][765]LogRenderer:Warning: Reallocating scene render targets to support 1208x944 (Frame:17951).
-[2015.03.30-15.11.14:526][207]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.11.14:608][207]BlueprintEditorCompileResults: Info [0855.24] Compile of fuse successful! [in 82 ms]
-[2015.03.30-15.11.39:701][490]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000012174D40
-[2015.03.30-15.11.39:702][490]LogHttp:Warning: 0000000012174D40 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.11.39:702][490]LogHttp:Warning: 0000000012174D40 Response Header Content-Type: text/html
-[2015.03.30-15.11.39:702][490]LogHttp:Warning: 0000000012174D40 Response Header Cache-Control: no-cache
-[2015.03.30-15.11.39:702][490]LogHttp:Warning: 0000000012174D40 Response Header Content-Length: 2833
-[2015.03.30-15.11.39:702][490]LogHttp:Warning: 0000000012174D40 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.11.47:135][973]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.11.47:211][973]BlueprintEditorCompileResults: Info [0887.84] Compile of fuse successful! [in 75 ms]
-[2015.03.30-15.12.00:658][653]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.12.00:734][653]BlueprintEditorCompileResults: Info [0901.37] Compile of fuse successful! [in 75 ms]
-[2015.03.30-15.12.40:170][630]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000117E3E40
-[2015.03.30-15.12.40:170][630]LogHttp:Warning: 00000000117E3E40 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.12.40:170][630]LogHttp:Warning: 00000000117E3E40 Response Header Content-Type: text/html
-[2015.03.30-15.12.40:170][630]LogHttp:Warning: 00000000117E3E40 Response Header Cache-Control: no-cache
-[2015.03.30-15.12.40:170][630]LogHttp:Warning: 00000000117E3E40 Response Header Content-Length: 2833
-[2015.03.30-15.12.40:170][630]LogHttp:Warning: 00000000117E3E40 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.14.20:039][329]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.14.20:113][329]BlueprintEditorCompileResults: Info [1040.75] Compile of fuse successful! [in 73 ms]
-[2015.03.30-15.15.02:802][158]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.15.02:879][158]BlueprintEditorCompileResults: Info [1083.52] Compile of fuse successful! [in 76 ms]
-[2015.03.30-15.15.20:113][306]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000000CE3CD40
-[2015.03.30-15.15.20:114][306]LogHttp:Warning: 000000000CE3CD40 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.15.20:114][306]LogHttp:Warning: 000000000CE3CD40 Response Header Content-Type: text/html
-[2015.03.30-15.15.20:114][306]LogHttp:Warning: 000000000CE3CD40 Response Header Cache-Control: no-cache
-[2015.03.30-15.15.20:114][306]LogHttp:Warning: 000000000CE3CD40 Response Header Content-Length: 2833
-[2015.03.30-15.15.20:114][306]LogHttp:Warning: 000000000CE3CD40 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.15.48:857][252]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.15.48:927][252]BlueprintEditorCompileResults: Info [1129.57] Compile of fuse successful! [in 69 ms]
-[2015.03.30-15.16.26:566][654]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.16.26:579][654]LogBlueprintUserMessages: MAINFUSE
-[2015.03.30-15.16.26:584][654]LogBlueprintUserMessages: MAINFUSE
-[2015.03.30-15.16.26:632][654]LogBlueprintUserMessages: MAINFUSE
-[2015.03.30-15.16.26:634][654]BlueprintEditorCompileResults: Info [1167.28] Compile of fuse successful! [in 68 ms]
-[2015.03.30-15.16.26:634][654]LogBlueprintUserMessages: MAINFUSE
-[2015.03.30-15.16.26:635][654]LogBlueprintUserMessages: MAINFUSE
-[2015.03.30-15.16.29:705][852]LogBlueprintUserMessages: BLOWNFUSE
-[2015.03.30-15.16.31:486][971]LogBlueprintUserMessages: MAINFUSE
-[2015.03.30-15.16.48:895][ 50]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000024B8FAC0
-[2015.03.30-15.16.48:895][ 50]LogHttp:Warning: 0000000024B8FAC0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.16.48:895][ 50]LogHttp:Warning: 0000000024B8FAC0 Response Header Content-Type: text/html
-[2015.03.30-15.16.48:895][ 50]LogHttp:Warning: 0000000024B8FAC0 Response Header Cache-Control: no-cache
-[2015.03.30-15.16.48:895][ 50]LogHttp:Warning: 0000000024B8FAC0 Response Header Content-Length: 2833
-[2015.03.30-15.16.48:895][ 50]LogHttp:Warning: 0000000024B8FAC0 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.16.52:994][305]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.03.30-15.16.53:003][305]LogBlueprintUserMessages: MAINFUSE
-[2015.03.30-15.16.53:004][305]LogPlayLevel: [PIE] Compiling fuse before PIE...
-[2015.03.30-15.16.53:073][305]LogPlayLevel: PIE:  Blueprint regeneration took 78 ms (1 blueprints)
-[2015.03.30-15.16.53:073][305]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:16:53)
-[2015.03.30-15.16.53:095][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021075s)
-[2015.03.30-15.16.53:096][305]LogPlayLevel: PIE: World Init took: (0.000734s)
-[2015.03.30-15.16.53:096][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.021986s)
-[2015.03.30-15.16.53:096][305]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.16.53:157][305]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.16.53:157][305]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.16.53:159][305]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.16.53:165][305]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.16.53
-[2015.03.30-15.16.53:166][305]LogWorld: Bringing up level for play took: 0.006332
-[2015.03.30-15.16.53:166][305]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.16.53:167][305]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace -0.301
-[2015.03.30-15.16.53:183][305]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.16.54:907][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010CCEC00
-[2015.03.30-15.17.01:490][762]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.03.30-15.17.03:483][874]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.17.03:563][874]BlueprintEditorCompileResults: Info [1204.21] Compile of fuse successful! [in 79 ms]
-[2015.03.30-15.17.17:521][493]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.03.30-15.17.24:891][749]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.17.24:974][749]BlueprintEditorCompileResults: Info [1225.62] Compile of fuse successful! [in 82 ms]
-[2015.03.30-15.17.26:595][819]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.17.26:595][819]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:17:26)
-[2015.03.30-15.17.26:612][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016513s)
-[2015.03.30-15.17.26:612][819]LogPlayLevel: PIE: World Init took: (0.000511s)
-[2015.03.30-15.17.26:612][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.017193s)
-[2015.03.30-15.17.26:613][819]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.17.26:645][819]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.17.26:645][819]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.17.26:646][819]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.17.26:652][819]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.17.26
-[2015.03.30-15.17.26:653][819]LogWorld: Bringing up level for play took: 0.006074
-[2015.03.30-15.17.26:653][819]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.17.26:654][819]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace -0.813
-[2015.03.30-15.17.26:662][819]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.17.30:346][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F414720
-[2015.03.30-15.17.53:018][985]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000350F8480
-[2015.03.30-15.17.53:019][985]LogHttp:Warning: 00000000350F8480 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.17.53:019][985]LogHttp:Warning: 00000000350F8480 Response Header Content-Type: text/html
-[2015.03.30-15.17.53:019][985]LogHttp:Warning: 00000000350F8480 Response Header Cache-Control: no-cache
-[2015.03.30-15.17.53:019][985]LogHttp:Warning: 00000000350F8480 Response Header Content-Length: 2833
-[2015.03.30-15.17.53:019][985]LogHttp:Warning: 00000000350F8480 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.18.14:730][ 40]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.03.30-15.18.25:322][471]LogEditorTransaction: Undo Modify Component(s)
-[2015.03.30-15.18.33:322][768]LogSavePackage: Save=454.500031ms
-[2015.03.30-15.18.33:322][768]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/model-workspace_Auto20A3C8B404FFE5470DC03F7A9827B66AF.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/maps/model-workspace_Auto2.umap'
-[2015.03.30-15.18.33:332][768]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maps/model-workspace' took 0.980
-[2015.03.30-15.18.33:332][768]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.980
-[2015.03.30-15.18.33:370][768]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/fuse] ([1] browsable assets)...
-[2015.03.30-15.18.33:405][768]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/fuse.fuse]
-[2015.03.30-15.18.33:405][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/fuse]
-[2015.03.30-15.18.33:853][768]LogSavePackage: Save=442.749786ms
-[2015.03.30-15.18.33:854][768]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/fuse_Auto2B4F605BE4CD30B793DE3D28531585162.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/Blueprints/fuse_Auto2.uasset'
-[2015.03.30-15.18.33:860][768]LogFileHelpers: Auto-saving content packages took 0.528
-[2015.03.30-15.18.41:832][211]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.18.41:931][211]BlueprintEditorCompileResults: Info [1302.58] Compile of fuse successful! [in 98 ms]
-[2015.03.30-15.18.43:151][266]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.18.43:151][266]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:18:43)
-[2015.03.30-15.18.43:175][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022487s)
-[2015.03.30-15.18.43:175][266]LogPlayLevel: PIE: World Init took: (0.000628s)
-[2015.03.30-15.18.43:175][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.023280s)
-[2015.03.30-15.18.43:176][266]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_1"
-[2015.03.30-15.18.43:207][266]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.18.43:207][266]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.18.43:209][266]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.18.43:215][266]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.18.43
-[2015.03.30-15.18.43:215][266]LogWorld: Bringing up level for play took: 0.005931
-[2015.03.30-15.18.43:216][266]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.18.43:217][266]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace -0.247
-[2015.03.30-15.18.43:223][266]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_1"
-[2015.03.30-15.18.44:664][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033720C20
-[2015.03.30-15.19.41:864][ 76]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000020620B80
-[2015.03.30-15.19.41:865][ 76]LogHttp:Warning: 0000000020620B80 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.19.41:865][ 76]LogHttp:Warning: 0000000020620B80 Response Header Content-Type: text/html
-[2015.03.30-15.19.41:865][ 76]LogHttp:Warning: 0000000020620B80 Response Header Cache-Control: no-cache
-[2015.03.30-15.19.41:865][ 76]LogHttp:Warning: 0000000020620B80 Response Header Content-Length: 2833
-[2015.03.30-15.19.41:865][ 76]LogHttp:Warning: 0000000020620B80 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.19.44:239][217]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.03.30-15.20.00:103][818]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.20.00:187][818]BlueprintEditorCompileResults: Info [1380.84] Compile of fuse successful! [in 83 ms]
-[2015.03.30-15.20.03:711][978]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.20.03:711][978]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:20:03)
-[2015.03.30-15.20.03:736][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025027s)
-[2015.03.30-15.20.03:737][978]LogPlayLevel: PIE: World Init took: (0.000752s)
-[2015.03.30-15.20.03:737][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.025997s)
-[2015.03.30-15.20.03:738][978]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.20.03:773][978]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.20.03:773][978]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.20.03:775][978]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.20.03:780][978]LogPhysics:Warning: FBodyInstance::UpdatePhysicalMaterials : PComplexMats is empty - falling back on simple physical material.
-[2015.03.30-15.20.03:781][978]LogPhysics:Warning: FBodyInstance::UpdatePhysicalMaterials : PComplexMats is empty - falling back on simple physical material.
-[2015.03.30-15.20.03:781][978]LogPhysics:Warning: FBodyInstance::UpdatePhysicalMaterials : PComplexMats is empty - falling back on simple physical material.
-[2015.03.30-15.20.03:781][978]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.20.03
-[2015.03.30-15.20.03:781][978]LogWorld: Bringing up level for play took: 0.006192
-[2015.03.30-15.20.03:782][978]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.20.03:783][978]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.322
-[2015.03.30-15.20.03:789][978]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.20.30:228][542]LogPhysics:Warning: FBodyInstance::UpdatePhysicalMaterials : PComplexMats is empty - falling back on simple physical material.
-[2015.03.30-15.20.30:228][542]LogPhysics:Warning: FBodyInstance::UpdatePhysicalMaterials : PComplexMats is empty - falling back on simple physical material.
-[2015.03.30-15.20.30:228][542]LogPhysics:Warning: FBodyInstance::UpdatePhysicalMaterials : PComplexMats is empty - falling back on simple physical material.
-[2015.03.30-15.20.30:228][542]LogPhysics:Warning: FBodyInstance::UpdatePhysicalMaterials : PComplexMats is empty - falling back on simple physical material.
-[2015.03.30-15.20.49:930][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A876D40
-[2015.03.30-15.20.53:755][ 29]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.03.30-15.21.00:132][328]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000021CF1B40
-[2015.03.30-15.21.00:136][328]LogHttp:Warning: 0000000021CF1B40 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.21.00:136][328]LogHttp:Warning: 0000000021CF1B40 Response Header Content-Type: text/html
-[2015.03.30-15.21.00:136][328]LogHttp:Warning: 0000000021CF1B40 Response Header Cache-Control: no-cache
-[2015.03.30-15.21.00:136][328]LogHttp:Warning: 0000000021CF1B40 Response Header Content-Length: 2833
-[2015.03.30-15.21.00:136][328]LogHttp:Warning: 0000000021CF1B40 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.21.03:402][542]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.03.30-15.21.15:550][213]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.21.15:642][213]BlueprintEditorCompileResults: Info [1456.30] Compile of fuse successful! [in 91 ms]
-[2015.03.30-15.21.19:920][395]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.21.19:920][395]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:21:19)
-[2015.03.30-15.21.19:940][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019014s)
-[2015.03.30-15.21.19:940][395]LogPlayLevel: PIE: World Init took: (0.000498s)
-[2015.03.30-15.21.19:941][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.019673s)
-[2015.03.30-15.21.19:941][395]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_1"
-[2015.03.30-15.21.19:977][395]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.21.19:977][395]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.21.19:979][395]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.21.19:985][395]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.21.19
-[2015.03.30-15.21.19:986][395]LogWorld: Bringing up level for play took: 0.006483
-[2015.03.30-15.21.19:986][395]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.21.19:987][395]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.529
-[2015.03.30-15.21.19:994][395]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_1"
-[2015.03.30-15.21.22:650][529]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE77420
-[2015.03.30-15.22.06:046][691]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.03.30-15.22.15:594][129]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000003BB802C0
-[2015.03.30-15.22.15:599][129]LogHttp:Warning: 000000003BB802C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.22.15:599][129]LogHttp:Warning: 000000003BB802C0 Response Header Content-Type: text/html
-[2015.03.30-15.22.15:599][129]LogHttp:Warning: 000000003BB802C0 Response Header Cache-Control: no-cache
-[2015.03.30-15.22.15:599][129]LogHttp:Warning: 000000003BB802C0 Response Header Content-Length: 2833
-[2015.03.30-15.22.15:599][129]LogHttp:Warning: 000000003BB802C0 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.22.45:636][ 79]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.22.45:710][ 79]BlueprintEditorCompileResults: Info [1546.37] Compile of fuse successful! [in 73 ms]
-[2015.03.30-15.22.47:033][139]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2015.03.30-15.23.08:896][630]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2015.03.30-15.23.45:680][ 29]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000038395D00
-[2015.03.30-15.23.45:684][ 29]LogHttp:Warning: 0000000038395D00 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.23.45:684][ 29]LogHttp:Warning: 0000000038395D00 Response Header Content-Type: text/html
-[2015.03.30-15.23.45:684][ 29]LogHttp:Warning: 0000000038395D00 Response Header Cache-Control: no-cache
-[2015.03.30-15.23.45:684][ 29]LogHttp:Warning: 0000000038395D00 Response Header Content-Length: 2833
-[2015.03.30-15.23.45:684][ 29]LogHttp:Warning: 0000000038395D00 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.24.05:157][901]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.24.05:241][901]BlueprintEditorCompileResults: Info [1625.91] Compile of fuse successful! [in 84 ms]
-[2015.03.30-15.24.20:845][975]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.24.20:928][975]BlueprintEditorCompileResults: Info [1641.59] Compile of fuse successful! [in 83 ms]
-[2015.03.30-15.24.30:676][600]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.24.30:758][600]BlueprintEditorCompileResults: Info [1651.42] Compile of fuse successful! [in 81 ms]
-[2015.03.30-15.25.05:703][284]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000026FD50C0
-[2015.03.30-15.25.06:037][285]LogHttp:Warning: 0000000026FD50C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.25.06:037][285]LogHttp:Warning: 0000000026FD50C0 Response Header Content-Type: text/html
-[2015.03.30-15.25.06:037][285]LogHttp:Warning: 0000000026FD50C0 Response Header Cache-Control: no-cache
-[2015.03.30-15.25.06:037][285]LogHttp:Warning: 0000000026FD50C0 Response Header Content-Length: 2833
-[2015.03.30-15.25.06:037][285]LogHttp:Warning: 0000000026FD50C0 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.25.38:426][611]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.03.30-15.25.52:699][124]LogEditorViewport: Clicking on Actor (LMB): fuse_C (fuse2)
-[2015.03.30-15.25.58:065][341]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/props'
-[2015.03.30-15.25.59:296][373]LogRenderer:Warning: Reallocating scene render targets to support 1432x944 (Frame:65857).
-[2015.03.30-15.26.03:375][659]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.03.30-15.26.03:381][659]LogPlayLevel: [PIE] Compiling fuse before PIE...
-[2015.03.30-15.26.03:388][659]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'fuse-broken' variable not found. Base class was probably changed.
-[2015.03.30-15.26.03:389][659]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'fuse-broken' variable not found. Base class was probably changed.
-[2015.03.30-15.26.03:390][659]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "fuse-broken" in 'fuse_C'.
-Make sure 'fuse_C' has been compiled for  Set Visibility 
-[2015.03.30-15.26.03:391][659]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "fuse-broken" in 'fuse_C'.
-Make sure 'fuse_C' has been compiled for  Set Visibility 
-[2015.03.30-15.26.03:391][659]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2015.03.30-15.26.03:391][659]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2015.03.30-15.26.03:514][659]LogBlueprint:Warning: [compiler] Warning [1744.18] Compile of fuse failed. 2 Fatal Issue(s) 4 Warning(s) [in 129 ms]
-[2015.03.30-15.26.03:514][659]LogBlueprint:Warning: [compiler] Warning [1744.18] Compile of fuse failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
-[2015.03.30-15.26.03:514][659]LogBlueprint:Warning: [compiler] Warning [1744.18] Compile of fuse failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms]
-[2015.03.30-15.26.03:525][659]LogBlueprint:Warning: [compiler] Warning [1744.19] Compile of fuse failed. 2 Fatal Issue(s) 7 Warning(s) [in 10 ms]
-[2015.03.30-15.26.03:525][659]LogBlueprint:Warning: [compiler] Warning [1744.19] Compile of fuse failed. 2 Fatal Issue(s) 8 Warning(s) [in 0 ms]
-[2015.03.30-15.26.03:525][659]LogBlueprint:Warning: [compiler] Warning [1744.19] Compile of fuse failed. 2 Fatal Issue(s) 9 Warning(s) [in 0 ms]
-[2015.03.30-15.26.03:554][659]LogPlayLevel: PIE:  Blueprint regeneration took 178 ms (1 blueprints)
-[2015.03.30-15.26.06:656][659]BlueprintLog: Info Blueprint fuse failed to compile
-[2015.03.30-15.26.16:065][992]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.03.30-15.26.17:177][ 34]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.26.17:185][ 34]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'fuse-broken' variable not found. Base class was probably changed.
-[2015.03.30-15.26.17:186][ 34]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'fuse-broken' variable not found. Base class was probably changed.
-[2015.03.30-15.26.17:187][ 34]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "fuse-broken" in 'fuse_C'.
-Make sure 'fuse_C' has been compiled for  Set Visibility 
-[2015.03.30-15.26.17:187][ 34]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "fuse-broken" in 'fuse_C'.
-Make sure 'fuse_C' has been compiled for  Set Visibility 
-[2015.03.30-15.26.17:188][ 34]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2015.03.30-15.26.17:188][ 34]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2015.03.30-15.26.17:298][ 34]LogBlueprint:Warning: [compiler] Warning [1757.97] Compile of fuse failed. 2 Fatal Issue(s) 4 Warning(s) [in 120 ms]
-[2015.03.30-15.26.17:298][ 34]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'fuse-broken' variable not found. Base class was probably changed.
-[2015.03.30-15.26.17:298][ 34]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'fuse-broken' variable not found. Base class was probably changed.
-[2015.03.30-15.26.17:298][ 34]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "fuse-broken" in 'fuse_C'.
-Make sure 'fuse_C' has been compiled for  Set Visibility 
-[2015.03.30-15.26.17:298][ 34]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "fuse-broken" in 'fuse_C'.
-Make sure 'fuse_C' has been compiled for  Set Visibility 
-[2015.03.30-15.26.17:298][ 34]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2015.03.30-15.26.17:298][ 34]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2015.03.30-15.26.17:298][ 34]BlueprintEditorCompileResults:Warning: Warning [1757.97] Compile of fuse failed. 2 Fatal Issue(s) 4 Warning(s) [in 120 ms]
-[2015.03.30-15.26.45:986][534]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.26.46:054][534]BlueprintEditorCompileResults: Info [1786.73] Compile of fuse successful! [in 67 ms]
-[2015.03.30-15.27.03:444][420]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000003A5849C0
-[2015.03.30-15.27.03:453][420]LogHttp:Warning: 000000003A5849C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.27.03:453][420]LogHttp:Warning: 000000003A5849C0 Response Header Content-Type: text/html
-[2015.03.30-15.27.03:453][420]LogHttp:Warning: 000000003A5849C0 Response Header Cache-Control: no-cache
-[2015.03.30-15.27.03:453][420]LogHttp:Warning: 000000003A5849C0 Response Header Content-Length: 2833
-[2015.03.30-15.27.03:453][420]LogHttp:Warning: 000000003A5849C0 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.28.13:640][727]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000003A586080
-[2015.03.30-15.28.13:973][728]LogHttp:Warning: 000000003A586080 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.28.13:973][728]LogHttp:Warning: 000000003A586080 Response Header Content-Type: text/html
-[2015.03.30-15.28.13:973][728]LogHttp:Warning: 000000003A586080 Response Header Cache-Control: no-cache
-[2015.03.30-15.28.13:973][728]LogHttp:Warning: 000000003A586080 Response Header Content-Length: 2833
-[2015.03.30-15.28.13:973][728]LogHttp:Warning: 000000003A586080 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.28.45:694][974]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.28.45:767][974]BlueprintEditorCompileResults: Info [1906.44] Compile of fuse successful! [in 72 ms]
-[2015.03.30-15.28.46:770][ 22]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.28.46:770][ 22]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:28:46)
-[2015.03.30-15.28.46:789][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018603s)
-[2015.03.30-15.28.46:790][ 22]LogPlayLevel: PIE: World Init took: (0.000644s)
-[2015.03.30-15.28.46:790][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.019427s)
-[2015.03.30-15.28.46:791][ 22]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.28.46:823][ 22]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.28.46:824][ 22]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.28.46:825][ 22]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.28.46:831][ 22]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.28.46
-[2015.03.30-15.28.46:831][ 22]LogWorld: Bringing up level for play took: 0.005624
-[2015.03.30-15.28.46:832][ 22]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.28.46:833][ 22]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace -0.607
-[2015.03.30-15.28.46:839][ 22]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.28.50:519][213]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044DB0A40
-[2015.03.30-15.28.53:097][330]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.28.53:097][330]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:28:53)
-[2015.03.30-15.28.53:116][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018722s)
-[2015.03.30-15.28.53:117][330]LogPlayLevel: PIE: World Init took: (0.000543s)
-[2015.03.30-15.28.53:117][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.019426s)
-[2015.03.30-15.28.53:117][330]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.28.53:148][330]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.28.53:148][330]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.28.53:150][330]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.28.53:155][330]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.28.53
-[2015.03.30-15.28.53:156][330]LogWorld: Bringing up level for play took: 0.005929
-[2015.03.30-15.28.53:156][330]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.28.53:157][330]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace -0.282
-[2015.03.30-15.28.53:164][330]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.28.55:959][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DD63E20
-[2015.03.30-15.29.35:185][525]LogSavePackage: Save=530.562256ms
-[2015.03.30-15.29.35:186][525]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/model-workspace_Auto395A029344948DC8CFC322A8496BD6C54.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/maps/model-workspace_Auto3.umap'
-[2015.03.30-15.29.35:204][525]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maps/model-workspace' took 1.061
-[2015.03.30-15.29.35:204][525]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.061
-[2015.03.30-15.29.35:247][525]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/fuse] ([1] browsable assets)...
-[2015.03.30-15.29.35:301][525]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/fuse.fuse]
-[2015.03.30-15.29.35:301][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/fuse]
-[2015.03.30-15.29.35:722][525]LogSavePackage: Save=414.309509ms
-[2015.03.30-15.29.35:723][525]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/fuse_Auto3382D0F174C647B5F7BCFD5AF902DADA9.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/Blueprints/fuse_Auto3.uasset'
-[2015.03.30-15.29.35:729][525]LogFileHelpers: Auto-saving content packages took 0.524
-[2015.03.30-15.29.45:716][894]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000001E18B040
-[2015.03.30-15.29.45:716][894]LogHttp:Warning: 000000001E18B040 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.29.45:716][894]LogHttp:Warning: 000000001E18B040 Response Header Content-Type: text/html
-[2015.03.30-15.29.45:716][894]LogHttp:Warning: 000000001E18B040 Response Header Cache-Control: no-cache
-[2015.03.30-15.29.45:716][894]LogHttp:Warning: 000000001E18B040 Response Header Content-Length: 2833
-[2015.03.30-15.29.45:716][894]LogHttp:Warning: 000000001E18B040 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.30.27:641][571]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.30.27:746][571]BlueprintEditorCompileResults: Info [2008.43] Compile of fuse successful! [in 104 ms]
-[2015.03.30-15.30.45:590][666]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.30.45:669][666]BlueprintEditorCompileResults: Info [2026.35] Compile of fuse successful! [in 78 ms]
-[2015.03.30-15.30.48:006][818]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000002F393900
-[2015.03.30-15.30.48:006][818]LogHttp:Warning: 000000002F393900 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.30.48:006][818]LogHttp:Warning: 000000002F393900 Response Header Content-Type: text/html
-[2015.03.30-15.30.48:006][818]LogHttp:Warning: 000000002F393900 Response Header Cache-Control: no-cache
-[2015.03.30-15.30.48:006][818]LogHttp:Warning: 000000002F393900 Response Header Content-Length: 2833
-[2015.03.30-15.30.48:007][818]LogHttp:Warning: 000000002F393900 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.30.54:634][224]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.30.54:635][224]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:30:54)
-[2015.03.30-15.30.54:654][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019024s)
-[2015.03.30-15.30.54:655][224]LogPlayLevel: PIE: World Init took: (0.000625s)
-[2015.03.30-15.30.54:655][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.019852s)
-[2015.03.30-15.30.54:655][224]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_1"
-[2015.03.30-15.30.54:687][224]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.30.54:687][224]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.30.54:688][224]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.30.54:694][224]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.30.54
-[2015.03.30-15.30.54:694][224]LogWorld: Bringing up level for play took: 0.005714
-[2015.03.30-15.30.54:695][224]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.30.54:696][224]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace -0.738
-[2015.03.30-15.30.54:703][224]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_1"
-[2015.03.30-15.30.56:164][311]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043E57CE0
-[2015.03.30-15.31.28:372][ 58]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.31.28:478][ 58]BlueprintEditorCompileResults: Info [2069.16] Compile of fuse successful! [in 105 ms]
-[2015.03.30-15.31.38:353][714]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.31.38:447][714]BlueprintEditorCompileResults: Info [2079.13] Compile of fuse successful! [in 93 ms]
-[2015.03.30-15.31.54:645][584]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000004A2DE400
-[2015.03.30-15.31.54:646][584]LogHttp:Warning: 000000004A2DE400 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.31.54:646][584]LogHttp:Warning: 000000004A2DE400 Response Header Content-Type: text/html
-[2015.03.30-15.31.54:646][584]LogHttp:Warning: 000000004A2DE400 Response Header Cache-Control: no-cache
-[2015.03.30-15.31.54:646][584]LogHttp:Warning: 000000004A2DE400 Response Header Content-Length: 2833
-[2015.03.30-15.31.54:646][584]LogHttp:Warning: 000000004A2DE400 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.32.31:090][795]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.32.31:172][795]BlueprintEditorCompileResults: Info [2131.86] Compile of fuse successful! [in 82 ms]
-[2015.03.30-15.32.33:938][960]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.32.33:938][960]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:32:33)
-[2015.03.30-15.32.33:960][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021663s)
-[2015.03.30-15.32.33:961][960]LogPlayLevel: PIE: World Init took: (0.000747s)
-[2015.03.30-15.32.33:961][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.022584s)
-[2015.03.30-15.32.33:962][960]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.32.33:992][960]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.32.33:992][960]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.32.33:993][960]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.32.33:999][960]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.32.33
-[2015.03.30-15.32.34:000][960]LogWorld: Bringing up level for play took: 0.006177
-[2015.03.30-15.32.34:000][960]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.32.34:001][960]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.571
-[2015.03.30-15.32.34:008][960]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.32.55:745][699]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000003F5AACC0
-[2015.03.30-15.32.56:079][700]LogHttp:Warning: 000000003F5AACC0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.32.56:079][700]LogHttp:Warning: 000000003F5AACC0 Response Header Content-Type: text/html
-[2015.03.30-15.32.56:079][700]LogHttp:Warning: 000000003F5AACC0 Response Header Cache-Control: no-cache
-[2015.03.30-15.32.56:079][700]LogHttp:Warning: 000000003F5AACC0 Response Header Content-Length: 2833
-[2015.03.30-15.32.56:079][700]LogHttp:Warning: 000000003F5AACC0 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.32.58:771][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C48E480
-[2015.03.30-15.33.02:090][  5]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.33.02:091][  5]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:33:02)
-[2015.03.30-15.33.02:111][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019832s)
-[2015.03.30-15.33.02:111][  5]LogPlayLevel: PIE: World Init took: (0.000528s)
-[2015.03.30-15.33.02:111][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.020525s)
-[2015.03.30-15.33.02:112][  5]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.33.02:144][  5]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.33.02:144][  5]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.33.02:146][  5]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.33.02:151][  5]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.33.02
-[2015.03.30-15.33.02:152][  5]LogWorld: Bringing up level for play took: 0.005847
-[2015.03.30-15.33.02:153][  5]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.33.02:153][  5]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.725
-[2015.03.30-15.33.02:160][  5]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.33.11:091][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000344E40E0
-[2015.03.30-15.33.12:482][614]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.33.12:483][614]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:33:12)
-[2015.03.30-15.33.12:504][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020942s)
-[2015.03.30-15.33.12:504][614]LogPlayLevel: PIE: World Init took: (0.000496s)
-[2015.03.30-15.33.12:504][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.021607s)
-[2015.03.30-15.33.12:505][614]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.33.12:538][614]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.33.12:538][614]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.33.12:540][614]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.33.12:545][614]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.33.12
-[2015.03.30-15.33.12:546][614]LogWorld: Bringing up level for play took: 0.005847
-[2015.03.30-15.33.12:546][614]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.33.12:547][614]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace -0.881
-[2015.03.30-15.33.12:554][614]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.33.15:779][766]LogSelection:Warning: PIE object was selected: "Brush /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.BoxBrush"
-[2015.03.30-15.33.16:108][778]LogEditorViewport: Clicking on Actor (LMB): fuse_C (fuse2)
-[2015.03.30-15.33.16:108][778]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.33.22:612][153]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043B16FC0
-[2015.03.30-15.33.56:793][ 60]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.33.56:873][ 60]BlueprintEditorCompileResults: Info [2217.56] Compile of fuse successful! [in 80 ms]
-[2015.03.30-15.33.58:088][138]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.33.58:088][138]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:33:58)
-[2015.03.30-15.33.58:109][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020800s)
-[2015.03.30-15.33.58:110][138]LogPlayLevel: PIE: World Init took: (0.000730s)
-[2015.03.30-15.33.58:110][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.021723s)
-[2015.03.30-15.33.58:110][138]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.33.58:139][138]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.33.58:139][138]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.33.58:141][138]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.33.58:147][138]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.33.58
-[2015.03.30-15.33.58:147][138]LogWorld: Bringing up level for play took: 0.006197
-[2015.03.30-15.33.58:148][138]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.33.58:148][138]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.722
-[2015.03.30-15.33.58:156][138]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.34.02:110][376]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000039910100
-[2015.03.30-15.34.02:116][376]LogHttp:Warning: 0000000039910100 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.34.02:116][376]LogHttp:Warning: 0000000039910100 Response Header Content-Type: text/html
-[2015.03.30-15.34.02:116][376]LogHttp:Warning: 0000000039910100 Response Header Cache-Control: no-cache
-[2015.03.30-15.34.02:116][376]LogHttp:Warning: 0000000039910100 Response Header Content-Length: 2833
-[2015.03.30-15.34.02:116][376]LogHttp:Warning: 0000000039910100 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.34.20:453][492]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004144B600
-[2015.03.30-15.35.31:343][467]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.35.31:452][467]BlueprintEditorCompileResults: Info [2312.15] Compile of fuse successful! [in 108 ms]
-[2015.03.30-15.35.32:598][539]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.35.32:599][539]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:35:32)
-[2015.03.30-15.35.32:635][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035152s)
-[2015.03.30-15.35.32:636][539]LogPlayLevel: PIE: World Init took: (0.000958s)
-[2015.03.30-15.35.32:636][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.036403s)
-[2015.03.30-15.35.32:637][539]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_1"
-[2015.03.30-15.35.32:675][539]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.35.32:675][539]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.35.32:677][539]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.35.32:683][539]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.35.32
-[2015.03.30-15.35.32:684][539]LogWorld: Bringing up level for play took: 0.005740
-[2015.03.30-15.35.32:684][539]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.35.32:685][539]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace -0.738
-[2015.03.30-15.35.32:692][539]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_1"
-[2015.03.30-15.35.34:786][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004641B920
-[2015.03.30-15.35.41:242][ 44]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.35.41:335][ 44]BlueprintEditorCompileResults: Info [2322.03] Compile of fuse successful! [in 92 ms]
-[2015.03.30-15.36.28:036][624]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000043A00100
-[2015.03.30-15.36.28:375][625]LogHttp:Warning: 0000000043A00100 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.36.28:375][625]LogHttp:Warning: 0000000043A00100 Response Header Content-Type: text/html
-[2015.03.30-15.36.28:375][625]LogHttp:Warning: 0000000043A00100 Response Header Cache-Control: no-cache
-[2015.03.30-15.36.28:375][625]LogHttp:Warning: 0000000043A00100 Response Header Content-Length: 2833
-[2015.03.30-15.36.28:375][625]LogHttp:Warning: 0000000043A00100 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.38.00:166][ 52]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.38.00:167][ 52]PIE: New page: SIE session: model-workspace (30 Mar 2015 17:38:00)
-[2015.03.30-15.38.00:189][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021965s)
-[2015.03.30-15.38.00:190][ 52]LogPlayLevel: PIE: World Init took: (0.000689s)
-[2015.03.30-15.38.00:190][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.022853s)
-[2015.03.30-15.38.00:190][ 52]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.38.00:225][ 52]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.38.00:225][ 52]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.38.00:227][ 52]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.38.00:233][ 52]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.38.00
-[2015.03.30-15.38.00:234][ 52]LogWorld: Bringing up level for play took: 0.006419
-[2015.03.30-15.38.00:234][ 52]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.03.30-15.38.00:235][ 52]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.819
-[2015.03.30-15.38.00:242][ 52]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse_C_0"
-[2015.03.30-15.38.00:853][ 67]LogSelection:Warning: PIE object was selected: "Brush /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.BoxBrush"
-[2015.03.30-15.38.02:608][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000464182C0
-[2015.03.30-15.38.04:662][299]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.38.04:662][299]PIE: New page: PIE session: model-workspace (30 Mar 2015 17:38:04)
-[2015.03.30-15.38.04:682][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019734s)
-[2015.03.30-15.38.04:683][299]LogPlayLevel: PIE: World Init took: (0.000528s)
-[2015.03.30-15.38.04:683][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.020459s)
-[2015.03.30-15.38.04:716][299]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.38.04:716][299]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.38.04:717][299]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.38.04:723][299]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.38.04
-[2015.03.30-15.38.04:724][299]LogWorld: Bringing up level for play took: 0.005894
-[2015.03.30-15.38.04:725][299]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace -0.691
-[2015.03.30-15.38.07:448][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000366080E0
-[2015.03.30-15.38.10:213][654]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.38.10:214][654]PIE: New page: PIE session: model-workspace (30 Mar 2015 17:38:10)
-[2015.03.30-15.38.10:235][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019430s)
-[2015.03.30-15.38.10:235][654]LogPlayLevel: PIE: World Init took: (0.000495s)
-[2015.03.30-15.38.10:236][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.020093s)
-[2015.03.30-15.38.10:268][654]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.38.10:268][654]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.38.10:269][654]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.38.10:275][654]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.38.10
-[2015.03.30-15.38.10:275][654]LogWorld: Bringing up level for play took: 0.005635
-[2015.03.30-15.38.10:277][654]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.861
-[2015.03.30-15.38.13:202][865]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000003DC22080
-[2015.03.30-15.38.13:207][865]LogHttp:Warning: 000000003DC22080 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.38.13:207][865]LogHttp:Warning: 000000003DC22080 Response Header Content-Type: text/html
-[2015.03.30-15.38.13:207][865]LogHttp:Warning: 000000003DC22080 Response Header Cache-Control: no-cache
-[2015.03.30-15.38.13:207][865]LogHttp:Warning: 000000003DC22080 Response Header Content-Length: 2833
-[2015.03.30-15.38.13:207][865]LogHttp:Warning: 000000003DC22080 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.38.15:717][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003EA916C0
-[2015.03.30-15.39.35:609][236]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/architecture'
-[2015.03.30-15.39.38:889][327]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
-[2015.03.30-15.40.58:123][785]LogSavePackage: Save=469.024475ms
-[2015.03.30-15.40.58:124][785]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/model-workspace_Auto458B846964E964147DDB6E88F68A90030.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/maps/model-workspace_Auto4.umap'
-[2015.03.30-15.40.58:134][785]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maps/model-workspace' took 0.995
-[2015.03.30-15.40.58:134][785]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.995
-[2015.03.30-15.40.58:174][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/fuse] ([1] browsable assets)...
-[2015.03.30-15.40.58:231][785]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/fuse.fuse]
-[2015.03.30-15.40.58:231][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/fuse]
-[2015.03.30-15.40.58:663][785]LogSavePackage: Save=428.168915ms
-[2015.03.30-15.40.58:664][785]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/fuse_Auto40EBC7946424CC7544B96BFB500A8334F.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/Blueprints/fuse_Auto4.uasset'
-[2015.03.30-15.40.58:670][785]LogFileHelpers: Auto-saving content packages took 0.537
-[2015.03.30-15.41.31:557][ 44]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/props'
-[2015.03.30-15.41.34:472][ 80]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/blend files/fuse_hologram.fbx)
-[2015.03.30-15.41.34:477][ 80]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.03.30-15.41.34:477][ 80]LogFbx: ItemName: Geometry, ItemCount : 1
-[2015.03.30-15.41.34:477][ 80]LogFbx: ItemName: Model, ItemCount : 1
-[2015.03.30-15.41.36:747][ 80]LogFbx: Loading FBX Scene from E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/blend files/fuse_hologram.fbx
-[2015.03.30-15.41.36:751][ 80]LogFbx: FBX Scene Loaded Succesfully
-[2015.03.30-15.41.36:753][ 80]LogFbx:Warning: Triangulating static mesh Plane
-[2015.03.30-15.41.36:756][ 80]LogFbx: == Initial material list:
-[2015.03.30-15.41.36:756][ 80]LogFbx: 0: None
-[2015.03.30-15.41.36:756][ 80]LogFbx: == After sorting:
-[2015.03.30-15.41.36:756][ 80]LogFbx: 0: None
-[2015.03.30-15.41.36:756][ 80]LogFbx: == Mapping table:
-[2015.03.30-15.41.36:756][ 80]LogFbx:   sort 0 -> 0
-[2015.03.30-15.41.36:757][ 80]LogStaticMesh: Building static mesh fuse_hologram...
-[2015.03.30-15.41.36:758][ 80]LogStaticMesh: Built static mesh [1.215627ms] /Game/props/fuse_hologram.fuse_hologram
-[2015.03.30-15.41.36:768][ 80]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.03.30-15.41.36:769][ 80]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/props'
-[2015.03.30-15.41.41:804][269]LogActorFactory: Actor Factory created fuse_hologram
-[2015.03.30-15.42.06:462][445]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.42.06:561][445]BlueprintEditorCompileResults: Info [2707.27] Compile of fuse successful! [in 99 ms]
-[2015.03.30-15.42.32:803][923]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000004FE09D00
-[2015.03.30-15.42.32:807][923]LogHttp:Warning: 000000004FE09D00 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.42.32:807][923]LogHttp:Warning: 000000004FE09D00 Response Header Content-Type: text/html
-[2015.03.30-15.42.32:807][923]LogHttp:Warning: 000000004FE09D00 Response Header Cache-Control: no-cache
-[2015.03.30-15.42.32:807][923]LogHttp:Warning: 000000004FE09D00 Response Header Content-Length: 2833
-[2015.03.30-15.42.32:807][923]LogHttp:Warning: 000000004FE09D00 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.42.39:633][357]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.42.39:660][357]LogBlueprint:Warning: [compiler] Warning  Sequence  has no valid output
-[2015.03.30-15.42.39:726][357]LogBlueprint:Warning: [compiler] Warning [2740.44] Compile of fuse successful, but with 1 Warning(s) [in 93 ms]
-[2015.03.30-15.42.39:726][357]BlueprintEditorCompileResults:Warning: Warning  Sequence  has no valid output
-[2015.03.30-15.42.39:726][357]BlueprintEditorCompileResults:Warning: Warning [2740.44] Compile of fuse successful, but with 1 Warning(s) [in 93 ms]
-[2015.03.30-15.43.35:521][183]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000004F995980
-[2015.03.30-15.43.35:523][183]LogHttp:Warning: 000000004F995980 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.43.35:523][183]LogHttp:Warning: 000000004F995980 Response Header Content-Type: text/html
-[2015.03.30-15.43.35:523][183]LogHttp:Warning: 000000004F995980 Response Header Cache-Control: no-cache
-[2015.03.30-15.43.35:523][183]LogHttp:Warning: 000000004F995980 Response Header Content-Length: 2833
-[2015.03.30-15.43.35:523][183]LogHttp:Warning: 000000004F995980 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.44.46:922][210]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000004F036400
-[2015.03.30-15.44.46:922][210]LogHttp:Warning: 000000004F036400 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.44.46:923][210]LogHttp:Warning: 000000004F036400 Response Header Content-Type: text/html
-[2015.03.30-15.44.46:923][210]LogHttp:Warning: 000000004F036400 Response Header Cache-Control: no-cache
-[2015.03.30-15.44.46:923][210]LogHttp:Warning: 000000004F036400 Response Header Content-Length: 2833
-[2015.03.30-15.44.46:923][210]LogHttp:Warning: 000000004F036400 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.45.06:581][450]LogBlueprint:Warning: [compiler] Warning  Sequence  has no valid output
-[2015.03.30-15.45.06:582][450]LogBlueprint:Warning: [compiler] Warning [2887.30] Compile of fuse successful, but with 1 Warning(s) [in 16 ms]
-[2015.03.30-15.45.06:582][450]LogBlueprint:Warning: [compiler] Warning [2887.30] Compile of fuse successful, but with 2 Warning(s) [in 0 ms]
-[2015.03.30-15.45.06:631][450]LogBlueprint:Warning: [compiler] Warning [2887.35] Compile of fuse successful, but with 3 Warning(s) [in 48 ms]
-[2015.03.30-15.45.06:636][450]LogBlueprint:Warning: [compiler] Warning [2887.35] Compile of fuse successful, but with 4 Warning(s) [in 5 ms]
-[2015.03.30-15.45.06:636][450]LogBlueprint:Warning: [compiler] Warning [2887.35] Compile of fuse successful, but with 5 Warning(s) [in 0 ms]
-[2015.03.30-15.45.06:636][450]LogBlueprint:Warning: [compiler] Warning [2887.35] Compile of fuse successful, but with 6 Warning(s) [in 0 ms]
-[2015.03.30-15.45.41:361][675]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.03.30-15.45.41:361][675]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.03.30-15.45.41:362][675]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.03.30-15.45.41:362][675]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.03.30-15.45.41:362][675]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.03.30-15.45.41:362][675]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/fuse.fuse:calculateHologramLocation.K2Node_CallFunction_2120 or K2Node_CallFunction /Game/Blueprints/fuse.fuse:EventGraph.K2Node_CallFunction_2120
-[2015.03.30-15.45.41:363][675]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/fuse.fuse:calculateHologramLocation.K2Node_CallFunction_2121 or K2Node_CallFunction /Game/Blueprints/fuse.fuse:EventGraph.K2Node_CallFunction_2121
-[2015.03.30-15.45.41:365][675]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/fuse.fuse:calculateHologramLocation.K2Node_CommutativeAssociativeBinaryOperator_17 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/fuse.fuse:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17
-[2015.03.30-15.45.57:288][531]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000585D4800
-[2015.03.30-15.45.57:289][531]LogHttp:Warning: 00000000585D4800 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.45.57:289][531]LogHttp:Warning: 00000000585D4800 Response Header Content-Type: text/html
-[2015.03.30-15.45.57:289][531]LogHttp:Warning: 00000000585D4800 Response Header Cache-Control: no-cache
-[2015.03.30-15.45.57:289][531]LogHttp:Warning: 00000000585D4800 Response Header Content-Length: 2833
-[2015.03.30-15.45.57:289][531]LogHttp:Warning: 00000000585D4800 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.46.28:810][538]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.46.28:839][538]LogBlueprint:Warning: [compiler] Warning  Sequence  has no valid output
-[2015.03.30-15.46.28:910][538]LogBlueprint:Warning: [compiler] Warning [2969.63] Compile of fuse successful, but with 1 Warning(s) [in 99 ms]
-[2015.03.30-15.46.28:910][538]BlueprintEditorCompileResults:Warning: Warning  Sequence  has no valid output
-[2015.03.30-15.46.28:910][538]BlueprintEditorCompileResults:Warning: Warning [2969.63] Compile of fuse successful, but with 1 Warning(s) [in 99 ms]
-[2015.03.30-15.46.39:979][246]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.46.40:116][246]BlueprintEditorCompileResults: Info [2980.84] Compile of fuse successful! [in 137 ms]
-[2015.03.30-15.46.57:490][369]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000040B56E80
-[2015.03.30-15.46.57:490][369]LogHttp:Warning: 0000000040B56E80 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
-[2015.03.30-15.46.57:490][369]LogHttp:Warning: 0000000040B56E80 Response Header Content-Type: text/html
-[2015.03.30-15.46.57:490][369]LogHttp:Warning: 0000000040B56E80 Response Header Cache-Control: no-cache
-[2015.03.30-15.46.57:490][369]LogHttp:Warning: 0000000040B56E80 Response Header Content-Length: 2833
-[2015.03.30-15.46.57:490][369]LogHttp:Warning: 0000000040B56E80 Response Header Proxy-Connection: Keep-Alive
-[2015.03.30-15.47.16:870][410]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.47.17:032][410]BlueprintEditorCompileResults: Info [3017.75] Compile of fuse successful! [in 161 ms]
-[2015.03.30-15.47.39:630][817]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.03.30-15.47.39:639][817]LogPlayLevel: [PIE] Compiling fuse before PIE...
-[2015.03.30-15.47.39:727][817]LogPlayLevel: PIE:  Blueprint regeneration took 97 ms (1 blueprints)
-[2015.03.30-15.47.39:728][817]PIE: New page: PIE session: model-workspace (30 Mar 2015 17:47:39)
-[2015.03.30-15.47.39:749][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021412s)
-[2015.03.30-15.47.39:751][817]LogPlayLevel: PIE: World Init took: (0.001159s)
-[2015.03.30-15.47.39:751][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.022853s)
-[2015.03.30-15.47.39:783][817]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.47.39:783][817]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.47.39:785][817]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.47.39:791][817]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.47.39
-[2015.03.30-15.47.39:791][817]LogWorld: Bringing up level for play took: 0.005787
-[2015.03.30-15.47.39:793][817]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.4
-[2015.03.30-15.47.41:621][941]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004ED596C0
-[2015.03.30-15.47.57:225][821]BlueprintLog: New page: Compile fuse
-[2015.03.30-15.47.57:318][821]BlueprintEditorCompileResults: Info [3058.04] Compile of fuse successful! [in 92 ms]
-[2015.03.30-15.47.59:693][963]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.30-15.47.59:693][963]PIE: New page: PIE session: model-workspace (30 Mar 2015 17:47:59)
-[2015.03.30-15.47.59:715][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021525s)
-[2015.03.30-15.47.59:716][963]LogPlayLevel: PIE: World Init took: (0.000598s)
-[2015.03.30-15.47.59:716][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.022323s)
-[2015.03.30-15.47.59:751][963]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
-[2015.03.30-15.47.59:751][963]LogWorld: Game class is 'GameMode'
-[2015.03.30-15.47.59:753][963]LogAIModule: Creating AISystem for world model-workspace
-[2015.03.30-15.47.59:759][963]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.30-16.47.59
-[2015.03.30-15.47.59:760][963]LogWorld: Bringing up level for play took: 0.006182
-[2015.03.30-15.47.59:761][963]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.37
-[2015.03.30-15.48.03:966][264]LogHttp:Warning: Resp
+[2015.03.31-10.05.42:232][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.31-10.05.44:094][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-10.05.44:575][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-10.05.44:623][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.31-10.05.44:658][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/B00215095/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.31-10.05.44:658][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/B00215095/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.31-10.05.44:658][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.31-10.05.44:658][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.31-10.05.44:763][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.31-10.05.44:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/B00215095/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.31-10.05.45:019][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.31-10.05.45:019][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.31-10.05.45:326][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.31-10.05.45:384][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.31-10.05.45:996][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.31-10.05.46:190][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.05.46:190][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.05.46:190][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.05.46:190][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.31-10.05.46:190][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.31-10.05.46:198][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.05.46:336][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.31-10.05.46:336][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.31-10.05.46:402][  0]LogEngine: Initializing Engine...
+[2015.03.31-10.05.49:526][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.31-10.05.49:543][  0]LogInit: FAudioDevice initialized.
+[2015.03.31-10.05.49:573][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.31-10.05.49:593][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/B00215095/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.31-10.05.49:597][  0]LogInit: Texture streaming: Enabled
+[2015.03.31-10.05.49:666][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.31-10.05.49:666][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.31-10.05.49:666][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.31-10.05.49:666][  0]LogAnalytics: SetUserId 5f4ed8c74b8607d1fdca338ea0157e6d|68682b651c3b41388d8a3028a75c7201|4642f44f-ad1b-4c43-bb75-e864ecc1445a
+[2015.03.31-10.05.49:667][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.31-10.05.49:682][  0]LogInit: Transaction tracking system initialized
+[2015.03.31-10.05.49:813][  0]BlueprintLog: New page: Editor Load
+[2015.03.31-10.05.49:841][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2015.03.31-10.05.49:841][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.31-10.05.50:259][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-10.05.50:557][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-10.05.50:754][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.31-10.05.50:755][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.31-10.05.50:759][  0]LogConsoleResponse:Display: 
+[2015.03.31-10.05.50:904][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.31-10.05.51:011][  0]SourceControl: Info Source control is disabled
+[2015.03.31-10.05.51:011][  0]Cmd: MAP LOAD FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/StarterContent/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-10.05.51:032][  0]LightingResults: New page: Lighting Build
+[2015.03.31-10.05.51:042][  0]MapCheck: New page: Map Check
+[2015.03.31-10.05.51:042][  0]LightingResults: New page: Lighting Build
+[2015.03.31-10.05.51:048][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001625A980
+[2015.03.31-10.05.51:749][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.31-10.05.51:758][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.31-10.05.51:758][  0]Cmd: MAP CHECKDEP
+[2015.03.31-10.05.51:759][  0]MapCheck: New page: Minimal_Default - 31 Mar 2015 12:05:51
+[2015.03.31-10.05.51:824][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.619ms to complete.
+[2015.03.31-10.05.51:824][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.814
+[2015.03.31-10.05.51:946][  0]LogCollectionManager: Loaded 0 collections in 0.001344 seconds
+[2015.03.31-10.05.51:956][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 1696 classes and 261 folders.
+[2015.03.31-10.05.51:985][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.03.31-10.05.52:025][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.31-10.05.52:026][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.31-10.05.52:059][  0]LogLoad: Full Startup: 12.84 seconds (BP compile: 0.06 seconds)
+[2015.03.31-10.05.52:093][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
+[2015.03.31-10.05.52:244][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.03.31-10.05.52:427][  3]LogAssetRegistry: Asset discovery search completed in 2.5950 seconds
+[2015.03.31-10.05.55:501][221]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/LevelDesignContent'
+[2015.03.31-10.05.55:999][264]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.31-10.05.57:296][362]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/LevelDesignContent'
+[2015.03.31-10.05.58:600][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
+[2015.03.31-10.05.58:946][497]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
+[2015.03.31-10.05.59:398][528]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/maps'
+[2015.03.31-10.06.01:567][672]Cmd: MAP LOAD FILE="E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Content/maps/model-workspace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-10.06.01:567][672]LightingResults: New page: Lighting Build
+[2015.03.31-10.06.01:592][672]LoadErrors: New page: Loading map: model-workspace.umap
+[2015.03.31-10.06.01:593][672]MapCheck: New page: Map Check
+[2015.03.31-10.06.01:593][672]LightingResults: New page: Lighting Build
+[2015.03.31-10.06.01:600][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CC1C720
+[2015.03.31-10.06.01:608][672]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.31-10.06.01:710][672]LogAIModule: Creating AISystem for world model-workspace
+[2015.03.31-10.06.01:733][672]Cmd: MAP CHECKDEP
+[2015.03.31-10.06.01:733][672]MapCheck: New page: model-workspace - 31 Mar 2015 12:06:01
+[2015.03.31-10.06.01:808][672]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.844ms to complete.
+[2015.03.31-10.06.01:809][672]LogFileHelpers: Loading map 'model-workspace' took 0.244
+[2015.03.31-10.06.11:609][403]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/architecture'
+[2015.03.31-10.06.17:400][612]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.03.31-10.06.19:449][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.03.31-10.06.30:266][442]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.03.31-10.06.40:405][832]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2015.03.31-10.06.42:007][939]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.03.31-10.06.42:037][939]LogStaticMesh: Building static mesh Shape_Cube...
+[2015.03.31-10.06.42:074][939]LogStaticMesh: Built static mesh [37.190678ms] /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2015.03.31-10.06.42:125][939]LogActorFactory: Actor Factory created Shape_Cube
+[2015.03.31-10.06.42:523][969]LogActorFactory: Actor Factory created Shape_Cube
+[2015.03.31-10.06.46:986][260]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.03.31-10.06.52:126][463]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000020AFD0C0
+[2015.03.31-10.06.52:133][463]LogHttp:Warning: 0000000020AFD0C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.06.52:133][463]LogHttp:Warning: 0000000020AFD0C0 Response Header Content-Type: text/html
+[2015.03.31-10.06.52:133][463]LogHttp:Warning: 0000000020AFD0C0 Response Header Cache-Control: no-cache
+[2015.03.31-10.06.52:133][463]LogHttp:Warning: 0000000020AFD0C0 Response Header Content-Length: 2833
+[2015.03.31-10.06.52:133][463]LogHttp:Warning: 0000000020AFD0C0 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.06.54:295][530]LogTexture:Display: Building textures: T_Concrete_Panels_D (AutoDXT)
+[2015.03.31-10.06.58:017][530]LogTexture:Display: Building textures: T_Concrete_Panels_N (BC5)
+[2015.03.31-10.06.58:877][530]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2015.03.31-10.07.02:085][530]LogMaterial: Missing cached shader map for material M_Concrete_Panels, compiling. 
+[2015.03.31-10.07.18:069][242]LogTexture:Display: Building textures: T_CobbleStone_Pebble_D (AutoDXT)
+[2015.03.31-10.07.22:040][242]LogTexture:Display: Building textures: T_CobbleStone_Pebble_N (BC5)
+[2015.03.31-10.07.22:683][242]LogTexture:Display: Building textures: T_CobbleStone_Pebble_M (AutoDXT)
+[2015.03.31-10.07.23:368][242]LogMaterial: Missing cached shader map for material M_CobbleStone_Pebble, compiling. 
+[2015.03.31-10.07.23:437][242]LogMaterial: Missing cached shader map for material M_ColorGrid_LowSpec, compiling. 
+[2015.03.31-10.07.25:914][384]LogTexture:Display: Building textures: T_Tech_Panel_M (AutoDXT)
+[2015.03.31-10.07.27:003][384]LogTexture:Display: Building textures: T_Tech_Panel_N (BC5)
+[2015.03.31-10.07.27:366][384]LogMaterial: Missing cached shader map for material M_Tech_Panel, compiling. 
+[2015.03.31-10.07.38:974][963]LogTexture:Display: Building textures: T_CobbleStone_Rough_D (AutoDXT)
+[2015.03.31-10.07.40:054][963]LogTexture:Display: Building textures: T_CobbleStone_Rough_N (AutoDXT)
+[2015.03.31-10.07.40:886][963]LogTexture:Display: Building textures: T_Gradinet_01 (AutoDXT)
+[2015.03.31-10.07.40:891][963]LogMaterial: Missing cached shader map for material M_CobbleStone_Rough, compiling. 
+[2015.03.31-10.08.04:276][ 65]Cmd: SELECT NONE
+[2015.03.31-10.08.08:184][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2015.03.31-10.08.10:782][513]Cmd: SELECT NONE
+[2015.03.31-10.08.13:207][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2015.03.31-10.08.17:557][998]Cmd: SELECT NONE
+[2015.03.31-10.08.18:689][ 83]Cmd: SELECT NONE
+[2015.03.31-10.08.36:894][130]Cmd: SELECT NONE
+[2015.03.31-10.08.44:363][669]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.31-10.08.44:363][669]PIE: New page: SIE session: model-workspace (31 Mar 2015 12:08:44)
+[2015.03.31-10.08.44:383][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019742s)
+[2015.03.31-10.08.44:384][669]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2015.03.31-10.08.44:384][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/model-workspace.model-workspace to /Game/maps/UEDPIE_0_model-workspace.model-workspace (0.020530s)
+[2015.03.31-10.08.44:432][669]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LevelDesignContent/Blueprints/LevelDesignGame.LevelDesignGame_C'
+[2015.03.31-10.08.44:432][669]LogWorld: Game class is 'GameMode'
+[2015.03.31-10.08.44:434][669]LogAIModule: Creating AISystem for world model-workspace
+[2015.03.31-10.08.44:442][669]LogWorld: Bringing World /Game/maps/UEDPIE_0_model-workspace.model-workspace up for play (max tick rate 0) at 2015.03.31-11.08.44
+[2015.03.31-10.08.44:442][669]LogWorld: Bringing up level for play took: 0.007611
+[2015.03.31-10.08.44:443][669]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.31-10.08.44:444][669]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_model-workspace 0.352
+[2015.03.31-10.08.48:563][856]Cmd: SELECT NONE
+[2015.03.31-10.09.18:250][738]Cmd: SELECT NONE
+[2015.03.31-10.09.31:716][189]Cmd: SELECT NONE
+[2015.03.31-10.09.32:513][237]Cmd: SELECT NONE
+[2015.03.31-10.09.33:977][304]LogSelection:Warning: PIE object was selected: "Brush /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.BoxBrush"
+[2015.03.31-10.09.34:354][320]LogEditorViewport: Clicking on Actor (LMB): fuse_C (fuse5)
+[2015.03.31-10.09.34:354][320]LogSelection:Warning: PIE object was selected: "fuse_C /Game/maps/UEDPIE_0_model-workspace.model-workspace:PersistentLevel.fuse5"
+[2015.03.31-10.09.37:242][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D30DA80
+[2015.03.31-10.09.38:918][610]LogEditorViewport: Clicking on Actor (LMB): fuse_C (fuse3)
+[2015.03.31-10.09.44:386][906]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000013BC25C0
+[2015.03.31-10.09.44:390][906]LogHttp:Warning: 0000000013BC25C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.09.44:390][906]LogHttp:Warning: 0000000013BC25C0 Response Header Content-Type: text/html
+[2015.03.31-10.09.44:390][906]LogHttp:Warning: 0000000013BC25C0 Response Header Cache-Control: no-cache
+[2015.03.31-10.09.44:390][906]LogHttp:Warning: 0000000013BC25C0 Response Header Content-Length: 2833
+[2015.03.31-10.09.44:390][906]LogHttp:Warning: 0000000013BC25C0 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.09.48:682][188]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/materials'
+[2015.03.31-10.09.49:768][228]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/LevelDesignContent'
+[2015.03.31-10.09.50:422][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.31-10.09.50:783][298]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/architecture'
+[2015.03.31-10.09.51:991][341]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.31-10.10.20:290][306]BlueprintLog: New page: Compile LevelDesignPlayer
+[2015.03.31-10.10.20:374][306]BlueprintEditorCompileResults: Info [0281.15] Compile of LevelDesignPlayer successful! [in 84 ms]
+[2015.03.31-10.10.55:740][916]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000001F707040
+[2015.03.31-10.10.56:074][917]LogHttp:Warning: 000000001F707040 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.10.56:074][917]LogHttp:Warning: 000000001F707040 Response Header Content-Type: text/html
+[2015.03.31-10.10.56:074][917]LogHttp:Warning: 000000001F707040 Response Header Cache-Control: no-cache
+[2015.03.31-10.10.56:074][917]LogHttp:Warning: 000000001F707040 Response Header Content-Length: 2833
+[2015.03.31-10.10.56:074][917]LogHttp:Warning: 000000001F707040 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.12.10:895][  4]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000033660D40
+[2015.03.31-10.12.11:228][  5]LogHttp:Warning: 0000000033660D40 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.12.11:228][  5]LogHttp:Warning: 0000000033660D40 Response Header Content-Type: text/html
+[2015.03.31-10.12.11:228][  5]LogHttp:Warning: 0000000033660D40 Response Header Cache-Control: no-cache
+[2015.03.31-10.12.11:228][  5]LogHttp:Warning: 0000000033660D40 Response Header Content-Length: 2833
+[2015.03.31-10.12.11:228][  5]LogHttp:Warning: 0000000033660D40 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.16.52:285][254]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000001CAB2E80
+[2015.03.31-10.16.52:618][255]LogHttp:Warning: 000000001CAB2E80 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.16.52:618][255]LogHttp:Warning: 000000001CAB2E80 Response Header Content-Type: text/html
+[2015.03.31-10.16.52:618][255]LogHttp:Warning: 000000001CAB2E80 Response Header Cache-Control: no-cache
+[2015.03.31-10.16.52:618][255]LogHttp:Warning: 000000001CAB2E80 Response Header Content-Length: 2833
+[2015.03.31-10.16.52:618][255]LogHttp:Warning: 000000001CAB2E80 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.16.55:444][260]LogSavePackage: Save=448.368011ms
+[2015.03.31-10.16.55:444][260]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/model-workspace_Auto13DD12079438053978314C882840E62A5.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/maps/model-workspace_Auto1.umap'
+[2015.03.31-10.16.55:478][260]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maps/model-workspace' took 0.752
+[2015.03.31-10.16.55:478][260]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.752
+[2015.03.31-10.16.55:513][260]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/LevelDesignPlayer] ([1] browsable assets)...
+[2015.03.31-10.16.55:513][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/LevelDesignPlayer]
+[2015.03.31-10.16.56:526][260]LogSavePackage: Save=954.071106ms
+[2015.03.31-10.16.56:556][260]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/LevelDesignPlayer_Auto110F484D6486DB66A99FA3A87FCAE343B.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/Blueprints/LevelDesignPlayer_Auto1.uasset'
+[2015.03.31-10.16.56:640][260]LogFileHelpers: Auto-saving content packages took 1.162
+[2015.03.31-10.21.52:351][149]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000001CAB0F00
+[2015.03.31-10.21.52:685][150]LogHttp:Warning: 000000001CAB0F00 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.21.52:685][150]LogHttp:Warning: 000000001CAB0F00 Response Header Content-Type: text/html
+[2015.03.31-10.21.52:685][150]LogHttp:Warning: 000000001CAB0F00 Response Header Cache-Control: no-cache
+[2015.03.31-10.21.52:685][150]LogHttp:Warning: 000000001CAB0F00 Response Header Content-Length: 2833
+[2015.03.31-10.21.52:685][150]LogHttp:Warning: 000000001CAB0F00 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.26.52:700][ 50]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000001CFBC2C0
+[2015.03.31-10.26.53:034][ 51]LogHttp:Warning: 000000001CFBC2C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.26.53:034][ 51]LogHttp:Warning: 000000001CFBC2C0 Response Header Content-Type: text/html
+[2015.03.31-10.26.53:034][ 51]LogHttp:Warning: 000000001CFBC2C0 Response Header Cache-Control: no-cache
+[2015.03.31-10.26.53:034][ 51]LogHttp:Warning: 000000001CFBC2C0 Response Header Content-Length: 2833
+[2015.03.31-10.26.53:034][ 51]LogHttp:Warning: 000000001CFBC2C0 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.30.45:119][382]LogSavePackage: Save=548.166199ms
+[2015.03.31-10.30.45:120][382]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/model-workspace_Auto2973A64B74E066F3F4F6D32A1135FF08B.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/maps/model-workspace_Auto2.umap'
+[2015.03.31-10.30.45:132][382]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maps/model-workspace' took 0.821
+[2015.03.31-10.30.45:132][382]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.821
+[2015.03.31-10.30.45:169][382]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/fuse] ([1] browsable assets)...
+[2015.03.31-10.30.45:204][382]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/fuse.fuse]
+[2015.03.31-10.30.45:204][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/fuse]
+[2015.03.31-10.30.45:868][382]LogSavePackage: Save=599.481384ms
+[2015.03.31-10.30.45:869][382]LogSavePackage: Moving 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/fuse_Auto2C1CC3254404F6296BC336AA033444FC8.tmp' to 'E:/Uni Work/BSc Honours/1415 3D Level Design/LevelDesignProject 4.7/Saved/Autosaves/Game/Blueprints/fuse_Auto2.uasset'
+[2015.03.31-10.30.45:916][382]LogFileHelpers: Auto-saving content packages took 0.784
+[2015.03.31-10.31.31:459][144]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000002C67EE80
+[2015.03.31-10.31.31:459][144]LogHttp:Warning: 000000002C67EE80 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.31.31:459][144]LogHttp:Warning: 000000002C67EE80 Response Header Content-Type: text/html
+[2015.03.31-10.31.31:459][144]LogHttp:Warning: 000000002C67EE80 Response Header Cache-Control: no-cache
+[2015.03.31-10.31.31:459][144]LogHttp:Warning: 000000002C67EE80 Response Header Content-Length: 2833
+[2015.03.31-10.31.31:459][144]LogHttp:Warning: 000000002C67EE80 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.31.37:052][722]BlueprintLog: New page: Compile fuse
+[2015.03.31-10.31.37:235][722]BlueprintEditorCompileResults: Info [1557.93] Compile of fuse successful! [in 183 ms]
+[2015.03.31-10.31.39:849][ 23]BlueprintLog: New page: Compile LevelDesignPlayer
+[2015.03.31-10.31.39:998][ 23]BlueprintEditorCompileResults: Info [1560.69] Compile of LevelDesignPlayer successful! [in 148 ms]
+[2015.03.31-10.31.47:649][737]BlueprintLog: New page: Compile fuse
+[2015.03.31-10.31.47:821][737]BlueprintEditorCompileResults: Info [1568.52] Compile of fuse successful! [in 172 ms]
+[2015.03.31-10.32.37:079][503]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 0000000033713C80
+[2015.03.31-10.32.37:079][503]LogHttp:Warning: 0000000033713C80 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.32.37:079][503]LogHttp:Warning: 0000000033713C80 Response Header Content-Type: text/html
+[2015.03.31-10.32.37:079][503]LogHttp:Warning: 0000000033713C80 Response Header Cache-Control: no-cache
+[2015.03.31-10.32.37:079][503]LogHttp:Warning: 0000000033713C80 Response Header Content-Length: 2833
+[2015.03.31-10.32.37:079][503]LogHttp:Warning: 0000000033713C80 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.33.43:276][325]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000001756DD00
+[2015.03.31-10.33.43:276][325]LogHttp:Warning: 000000001756DD00 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.33.43:276][325]LogHttp:Warning: 000000001756DD00 Response Header Content-Type: text/html
+[2015.03.31-10.33.43:276][325]LogHttp:Warning: 000000001756DD00 Response Header Cache-Control: no-cache
+[2015.03.31-10.33.43:276][325]LogHttp:Warning: 000000001756DD00 Response Header Content-Length: 2833
+[2015.03.31-10.33.43:276][325]LogHttp:Warning: 000000001756DD00 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.34.43:844][246]BlueprintLog: New page: Compile LevelDesignPlayer
+[2015.03.31-10.34.43:990][246]BlueprintEditorCompileResults: Info [1744.69] Compile of LevelDesignPlayer successful! [in 145 ms]
+[2015.03.31-10.34.48:821][776]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000003339C2C0
+[2015.03.31-10.34.48:822][776]LogHttp:Warning: 000000003339C2C0 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.34.48:822][776]LogHttp:Warning: 000000003339C2C0 Response Header Content-Type: text/html
+[2015.03.31-10.34.48:822][776]LogHttp:Warning: 000000003339C2C0 Response Header Cache-Control: no-cache
+[2015.03.31-10.34.48:822][776]LogHttp:Warning: 000000003339C2C0 Response Header Content-Length: 2833
+[2015.03.31-10.34.48:822][776]LogHttp:Warning: 000000003339C2C0 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.35.05:151][617]BlueprintLog: New page: Compile fuse
+[2015.03.31-10.35.05:331][617]BlueprintEditorCompileResults: Info [1766.04] Compile of fuse successful! [in 180 ms]
+[2015.03.31-10.35.50:590][933]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 000000001A01A080
+[2015.03.31-10.35.50:590][933]LogHttp:Warning: 000000001A01A080 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.35.50:590][933]LogHttp:Warning: 000000001A01A080 Response Header Content-Type: text/html
+[2015.03.31-10.35.50:590][933]LogHttp:Warning: 000000001A01A080 Response Header Cache-Control: no-cache
+[2015.03.31-10.35.50:590][933]LogHttp:Warning: 000000001A01A080 Response Header Content-Length: 2833
+[2015.03.31-10.35.50:590][933]LogHttp:Warning: 000000001A01A080 Response Header Proxy-Connection: Keep-Alive
+[2015.03.31-10.36.05:168][609]BlueprintLog: New page: Compile fuse
+[2015.03.31-10.36.05:345][609]BlueprintEditorCompileResults: Info [1826.05] Compile of fuse successful! [in 176 ms]
+[2015.03.31-10.36.52:177][148]LogHttp:Warning: Response payload was 0 bytes, content-length indicated (2833) bytes. 00000000395C4100
+[2015.03.31-10.36.52:177][148]LogHttp:Warning: 00000000395C4100 Response Header Via: 1.0 146.191.228.22 (McAfee Web Gateway 7.4.2.7.0.18936)
+[2015.03.31-10.36.52:177][148]LogHttp:Warning: 00000000395C4100 Response Hea
